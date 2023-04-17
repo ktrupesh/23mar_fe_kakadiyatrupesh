@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form action="" method="POST">
+            <label for="">Salutation</label><br>
+            <select name="" id="">
+                <option value="none">--None--</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select><br>
+
+            <label for="">First Name:</label>
+            <input type="text" name="fn" id="" placeholder="Enter your name" required><br>
+
+            <label for="">Last Name:</label>
+            <input type="text" name="ln" id="" placeholder="Enter your last name" required><br>
+
+            <label>Gender :</label>
+            Male<input type="radio" name="gender">
+            Female<input type="radio" name="gender"><br>
+
+
+            <label for="">Email:</label>
+            <input type="email" name="email" id="" placeholder="Enter your Email" required><br>
+
+            <label for="">Date Of Birth:</label>
+            <input type="datetime-local" name="dob" required><br>
+
+            Address:
+            <textarea id="add" name="add" rows="4" cols="50">
+            </textarea><br>
+
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </fieldset>
+</body>
+</html>
