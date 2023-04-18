@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+            background: #989898;
+            padding: 14px 10px;
+        }
+
+        header .navbar ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+
+        header .navbar ul li{
+            list-style: none;
+        }
+
+        header .navbar ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        header .navbar ul li a:hover{
+            background: red;
+            color: #fff;
+            padding: 7px 25px;
+            transition: all 0.2s ease-in-out;
+            border-top-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#About Us">About Us</a></li>
+                <li><a href="#Contant Us">Contant Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
