@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Header</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+            background: #111;
+            padding: 15px 10px;
+        }
+
+        header ul li{
+            list-style: none;
+        }
+
+        header ul li a{
+            font-size: 14px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        header ul li a:hover{
+            background: green;
+            color: #fff;
+            padding: 8px 25px;
+            border-top-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            transition: all 0.2s ease;
+        }
+
+        header ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+
+        header .logo i{
+            font-size: 20px;
+            position: relative;
+            padding-left: 160px;
+            top: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./home.html" target="_blank" class="logo"> <i class="fas fa-home    "></i></a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JAVASCRIPT</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">BOOTSTRAP</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
