@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.internal{
+    padding: 50px;
+}
+
+.internal .container{
+    background: rgb(210, 210, 209);
+}
+
+.internal .container .row .hero_section .left_side{
+    width: 40%;
+}
+
+.internal .container .row .hero_section .left_side p{
+    padding-top: 15px;
+}
+
+.internal .container .row .hero_section .left_side .left_btn a{
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid #111;
+    color: #111;
+    padding: 7px 15px;
+    padding-top: -10px;
+}
+
+.internal .container .row .hero_section .right_side .image_group img{
+    margin-right: -12px;
+    width: 850px;
+}
+
+.internal .container .row .hero_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
