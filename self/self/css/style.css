@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:ital,wght@1,100&family=Poppins:wght@100&family=Raleway:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(37, 41, 63);
+}
+
+section{
+    padding: 55px 0px;
+}
+
+header{
+    background: rgb(37, 41, 63);
+    position: fixed;
+}
+
+
+header .navbar ul{
+    position: relative;
+    z-index: 9999;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-left: 300px;
+}
+
+header .navbar ul li ,header .navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header .navbar ul li a:hover{
+    border-bottom: 3px solid rgb(34, 147, 217);
+    border-bottom: -50px;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+header .navbar ul .nav_btn{
+    display: flex;
+    padding-left: 400px;
+    gap: 40px;   
+}
+
+header .navbar ul .nav_btn a{
+    background: rgb(34, 147, 217);
+    padding: 6px 22px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+header .navbar ul .nav_btn a:hover{
+    background: #fff;
+    color: rgb(34, 147, 217);
+    border: 2px solid rgb(34, 147, 217);
+}
+
+.hero_section {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.hero_section .container .row .wel_come span{
+    color: rgb(34, 147, 217);
+}
+
+.hero_section .container .row .title h2{
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero_section .container .row .title p{
+    color: #fff;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+}
+
+.hero_section .container .row .hero_btn a:nth-child(1){
+    text-decoration: none;
+    color: #fff;
+    background:  rgb(34, 147, 217);
+    padding: 15px 20px;
+}
+
+.hero_section .container .row .hero_btn a:nth-child(2){
+    text-decoration: none;
+    margin-left: 20px;
+    color:  rgb(34, 147, 217);
+    border: 2.5px solid rgb(34, 147, 217);
+    padding: 15px 20px;
+}
+
+
+.banner_section .container .row .card_body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+    position: relative;
+    z-index: 99;
+}
+
+.banner_section .container .row .card_body .card{
+    width: 33.33%;
+    height: 250px;
+    border: none;
+    border-radius: 0px;
+}
+
+.banner_section .container .row .card_body .card i{
+    color: rgb(34, 147, 217);
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.banner_section .container .row .card_body .card .card_title span{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 4px solid rgb(34, 147, 217);
+}
+
+.banner_section .container .row .card_body .card .card_title p{
+    padding-top: 20px;
+    font-size: 16px;
+    color: #746e6e;
+}
