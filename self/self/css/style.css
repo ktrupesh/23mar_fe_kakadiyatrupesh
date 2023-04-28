@@ -73,10 +73,14 @@ header .navbar ul .nav_btn a:hover{
 }
 
 .hero_section .container .row .title h2{
-    color: #fff;
     letter-spacing: 1.5px;
     font-size: 3rem;
     font-weight: 700;
+    background: url(https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .hero_section .container .row .title p{
