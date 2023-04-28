@@ -62,6 +62,8 @@ header .navbar ul .nav_btn a:hover{
     background: #fff;
     color: rgb(34, 147, 217);
     border: 2px solid rgb(34, 147, 217);
+    outline: 3px solid  rgb(34, 147, 217);
+    outline-offset: 3px;
 }
 
 .hero_section {
