@@ -16,13 +16,10 @@ section{
 
 header{
     background: rgb(37, 41, 63);
-    position: fixed;
 }
 
 
 header .navbar ul{
-    position: relative;
-    z-index: 9999;
     padding-top: 30px;
     display: flex;
     justify-content: center;
