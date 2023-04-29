@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Header</title>
     <style>
         *{
@@ -13,44 +14,37 @@
         }
 
         header{
-            background: #989898;
-            padding: 14px 10px;
+            background: #111;
+            padding: 25px;
         }
 
-        header .navbar ul{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 50px;
+        header nav ul {
+            text-align: center;
         }
 
-        header .navbar ul li{
+        header nav ul li{
             list-style: none;
+            display: inline;
+            color: #fff;
+            padding: 15px;
         }
 
-        header .navbar ul li a{
-            text-decoration: none;
-            color: #fff;
-        }
-
-        header .navbar ul li a:hover{
-            background: red;
-            color: #fff;
-            padding: 7px 25px;
-            transition: all 0.2s ease-in-out;
-            border-top-left-radius: 12px;
-            border-bottom-right-radius: 12px;
+        li::after{
+            content: '';
+            border: 2px solid #fff;
+            margin-left: 50px;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav>
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Products">Products</a></li>
-                <li><a href="#About Us">About Us</a></li>
-                <li><a href="#Contant Us">Contant Us</a></li>
+                <li><i class="fa fa-home" aria-hidden="true"></i> Home</li>
+                <li> <i class="fa fa-gear"></i> About Us</li>
+                <li> <i class="fas fa-phone    "></i> Contant Us</li>
+                <li> <i class="fa-solid fa-right-to-bracket"></i> Log In</li>
+                <li> <i class="fa-solid fa-user-plus"></i> Sign Up</li>
             </ul>
         </nav>
     </header>
