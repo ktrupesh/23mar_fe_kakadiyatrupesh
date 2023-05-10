@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ header{
+    background: #111;
+    padding: 25px 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin-left: 90px;
+    transition: .2s ease-in-out;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Popins' , sans-serif;
+}
+
+.active{
+    border-bottom: 3px solid red;
+}
+
+header nav ul li a:hover{
+    border-bottom: 3px solid #fff;
+}
+
+header nav ul .nav_btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Popins' , sans-serif;
+}
+
+header nav ul .nav_btn a:hover{
+    border-bottom: 3px solid #fff;
+}
+
+section{
+    padding: 25px 0;
+}
+
+.q_1 .container .row .p_n_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.q_1 .container .row .p_n_btn a{
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-family: 'Popins' , sans-serif;
+    transition: all .3s ease-in-out;
+}
+
+.q_1 .container .row .p_n_btn a:hover{
+    background: #fff;
+    color: green;
+    border: 2px solid green;
+}
