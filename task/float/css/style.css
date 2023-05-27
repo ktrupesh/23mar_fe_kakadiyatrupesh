@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .top_header{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.924);    
+}
+
+header .top_header .left_side{
+    width: 35%;
+    float: left;
+    clear: left;
+    margin-left: 30px;
+}
+
+header .top_header .left_side ul li{
+    display: inline-block;
+}
+
+header .top_header .left_side ul li a{
+    text-decoration: none;
+    color: #111;
+    padding: 0px 20px;
+
+}
+
+
+header .top_header .right_side{
+    width: 35%;
+    float: right;
+    clear: right;
+}
+
+header .top_header .right_side ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+header .top_header .right_side ul li a{
+    color: #111;
+    text-decoration: none;
+}
+
+header .top_header .right_side ul li .border::after{
+    content: " ";
+    border: 1px solid rgba(232, 232, 232, 0.924);
+    margin-left: 15px;
+}
+
+header .top_header .right_side ul li a i{
+    color: #74706B;
+}
+
+header .min_header{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+header .min_header .header_logo{
+    width: 15%;
+    float: left;
+}
+
+header .min_header .header_logo img{
+    margin: 26px 80px;
+}
+
+header .min_header .main_navbar{
+    width: 70%;
+    float: left;
+}
+
+header .min_header .main_navbar nav ul{
+    text-align: center;
+}
+
+header .min_header .main_navbar nav ul li{
+    display: inline-block;
+}
+
+header .min_header .main_navbar nav ul li a{
+    color: #111;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+}
+
+header .min_header .main_navbar nav ul li:hover a{
+    color: red;
+}
+
+header .min_header .right_side{
+    width: 15%;
+    float: right;
+}
+
+header .min_header .right_side li{
+    display: inline-block;
+}
+
+header .min_header .right_side li a{
+    font-size: 22px;
+    padding: 0px 15px;
+    color: #999;
+    margin-right: 8px;
+}
+
+header .bottom_header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #111;
+}
+
+header .bottom_header p{
+    letter-spacing: .7px;
+    font-size: 18px;
+    color: #fff;
+}
+
+header .bottom_header p span{
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+
+header .bottom_header p span:hover{
+    letter-spacing: 2px;
+}
