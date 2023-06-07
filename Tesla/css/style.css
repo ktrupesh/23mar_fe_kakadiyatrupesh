@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header area start  */
+
+
+header .header_title{
+    width: auto;
+    height: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+header .header_title p{
+    background: #fff;
+    color: #111;
+    font-weight: 500;
+    font-family:"Popins" , sans-serif;
+    letter-spacing: .5px;
+}
+
+header .header_title p a{
+    color: #111;
+    text-decoration: none;
+    border-bottom: 2px solid #222;
+}
+
+header .header_mid .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6px;
+}
+
+header .header_mid .box  .logo a img{
+    width: 34%;
+    margin-top: 10px;
+}
+
+header .header_mid .box .mane_menu .navbar ul{
+    margin-left: -16rem;
+}
+
+header .header_mid .box .mane_menu .navbar ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+header .header_mid .box .mane_menu .navbar ul li a{
+    text-decoration: none;
+    font-family: "popins" , sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+header .header_mid .box .header_right ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+header .header_mid .box .header_right ul li a{
+    text-decoration: none;
+    font-family: "popins" , sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+header .tesla_video{
+    position: relative;
+    width: 100%;
+}
+
+header .tesla_video video{
+    position: absolute;
+    width: 100%;
+    margin-top: -100px;
+    z-index: -2;
+}
+
+header .tesla_video .video_titel{
+    text-align: center;
+    /* position: relative;
+    top: 70px; */
+    color: #fff;
+}
+
+header .tesla_video .video_titel h2{
+    font-size: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+header .tesla_video .video_titel p{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .tesla_video .video_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .tesla_video .video_btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 500px;
+    letter-spacing: .5px;
+    word-spacing: 8px;
+    padding: 6px 70px;
+    background: transparent;
+    border: 2.5px solid #fff;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header area End  */
+
+/* model3 area start  */
+
+.model3_section{
+    margin-top: 96px;
+}
+
+.model3_section .image{
+    background: url("../image/front-left-side-47\ \(1\).avif") no-repeat;
+    height: 100vh;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+}
+
+.model3_section .image .image_content{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.model3_section .image .image_content h2{
+    font-size: 38px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;   
+}
+
+.model3_section .image .image_content p a{
+    text-decoration: none;
+    color: #111;
+    letter-spacing: 1px;  
+    border-bottom: 1px solid #111; 
+    transition: all .2s ease-in-out;
+}
+
+.model3_section .image .image_content p a:hover{
+    border-bottom: 2.5px solid #111; 
+}
+
+.model3_section .image .image_content .model3_btn{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.model3_section .image .image_content .model3_btn a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 70px;
+    background: #444;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.model3_section .image .image_content .model3_btn .model_btn{
+    color: #111;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 6px 70px;
+    background: rgba(255, 255, 255, 0.627);
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* model3 area End  */
+
+
+/* modelY area start  */
+
+.modely_section .image{
+    background: url("../image/model_y.jpeg") no-repeat;
+    height: 100vh;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+}
+
+.modely_section .image .image_content{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.modely_section .image .image_content h2{
+    font-size: 38px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;   
+}
+
+.modely_section .image .image_content p a{
+    text-decoration: none;
+    font-family: "Popins" , sans-serif;
+    color: #111;
+    letter-spacing: 1px;  
+    border-bottom: 1px solid #111; 
+    transition: all .2s ease-in-out;
+}
+
+.modely_section .image .image_content p a:hover{
+    border-bottom: 2.5px solid #111; 
+}
+
+.modely_section .image .image_content .model3_btn{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.modely_section .image .image_content .model3_btn a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 70px;
+    background: #444;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modely_section .image .image_content .model3_btn .model_btn{
+    color: #111;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 6px 70px;
+    background: rgba(255, 255, 255, 0.627);
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* modelY area End  */
+
+/* modelS area start  */
+
+
+.models_section .image{
+    background: url("../image/front-left-side-47\ \(1\).avif") no-repeat;
+    height: 100vh;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+}
+
+.models_section .image .image_content{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.models_section .image .image_content h2{
+    font-size: 38px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;   
+}
+
+.models_section .image .image_content p a{
+    text-decoration: none;
+    color: #111;
+    letter-spacing: 1px;  
+    border-bottom: 1px solid #111; 
+    transition: all .2s ease-in-out;
+}
+
+.models_section .image .image_content p a:hover{
+    border-bottom: 2.5px solid #111; 
+}
+
+.models_section .image .image_content .models_btn{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.models_section .image .image_content .models_btn a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 70px;
+    background: #444;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.models_section .image .image_content .models_btn .model_btn{
+    color: #111;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 6px 70px;
+    background: rgba(255, 255, 255, 0.627);
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* modelS area End  */
+
+/* modelx area start  */
+
+.modelx_section .image{
+    background: url("../image/modelsx.jpeg") no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+}
+
+.modelx_section .image .image_content{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.modelx_section .image .image_content h2{
+    font-size: 38px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;   
+}
+
+.modelx_section .image .image_content p a{
+    text-decoration: none;
+    color: #111;
+    letter-spacing: 1px;  
+    border-bottom: 1px solid #111; 
+    transition: all .2s ease-in-out;
+}
+
+.modelx_section .image .image_content p a:hover{
+    border-bottom: 2.5px solid #111; 
+}
+
+.modelx_section .image .image_content .modelx_btn{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.modelx_section .image .image_content .modelx_btn a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 70px;
+    background: #444;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modelx_section .image .image_content .modelx_btn .model_btn{
+    color: #111;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 6px 70px;
+    background: rgba(255, 255, 255, 0.627);
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* modelx area End  */
+
+/* solar panels start  */
+
+.solar_panels_section .image{
+    background: url("../image/solar\ roof.png") no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+}
+
+.solar_panels_section .image .image_content{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.solar_panels_section .image .image_content h2{
+    font-size: 38px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;   
+}
+
+.solar_panels_section .image .image_content p a{
+    text-decoration: none;
+    color: #111;
+    letter-spacing: 1px;  
+}
+
+.solar_panels_section .image .image_content .solar_panels_btn{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.solar_panels_section .image .image_content .solar_panels_btn a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 70px;
+    background: #444;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.solar_panels_section .image .image_content .solar_panels_btn .model_btn{
+    color: #111;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 6px 70px;
+    background: rgba(255, 255, 255, 0.627);
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* solar panels End  */
+
+/* solar roof start  */
+
+.solar_roof_section .image{
+    background: url("../image/solar-roof.webp") no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+}
+
+.solar_roof_section .image .image_content{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.solar_roof_section .image .image_content h2{
+    font-size: 38px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;   
+}
+
+.solar_roof_section .image .image_content p a{
+    text-decoration: none;
+    color: #111;
+    letter-spacing: 1px;  
+}
+
+.solar_roof_section .image .image_content .solar_roof_btn{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.solar_roof_section .image .image_content .solar_roof_btn a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 70px;
+    background: #444;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.solar_roof_section .image .image_content .solar_roof_btn .model_btn{
+    color: #111;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 6px 70px;
+    background: rgba(255, 255, 255, 0.627);
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* solar roof End  */
+
+
+/* tesla Accessories start  */
+
+.accessories_section .image{
+    background: url("../image/wall4.jpeg") no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+}
+
+.accessories_section .image .image_content{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.accessories_section .image .image_content h2{
+    font-size: 38px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;   
+}
+
+.accessories_section .image .image_content p a{
+    text-decoration: none;
+    color: #111;
+    letter-spacing: 1px;  
+}
+
+.accessories_section .image .image_content .accessories_btn{
+    margin-top: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.accessories_section .image .image_content .accessories_btn a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 70px;
+    background: #222;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* tesla Accessories End  */
+
+footer{
+    background: #fff;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer .content p a{
+    text-decoration: none;
+    color: #111;
+    letter-spacing: .5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
