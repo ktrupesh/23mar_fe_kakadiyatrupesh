@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    margin: 100px auto;
+    cursor: help;
+}
+
+.box .none{
+    margin: 30px 0px;
+    overflow: hidden;
+}
+
+.box .none img{
+    transition: all 1s ease-in-out;
+    width: 100%;
+}
+
+
+.box .Transform{
+    overflow: hidden;
+}
+
+.box .Transform img{
+    width: 100%;
+    transition: all 1s ease-in-out;
+    transform: scale(1);
+}
+
+.box .Transform img:hover{
+    transform: rotate(180deg);
+    border-radius: 50%;
+}
+
+.box .none img:hover{
+    transform: scale(1.5);
+}
