@@ -1,0 +1,631 @@
+@media screen and (min-width:320px) and (max-width:500px) {
+    header .logo{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    header{
+        padding: 0 1rem;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header .toggler_btn{
+        display: block;
+    }
+
+    header .logo span:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .hero_section .sellright .image .image_content{
+        left: 25%;
+    }
+
+    .hero_section .sellright .image .image_content h2{
+        font-size: 14px;
+    }
+
+    .hero_section .sellright .image .image_content h4{
+        padding-top: 12px;
+        font-size: 16px;
+    }
+
+    .hero_section .sellright .image .image_content .car_product{
+        display: none;
+    }
+
+    .selling_section .selling_car .title h1{
+        font-size: 18px;
+    }
+
+    .selling_section .selling_car .image_group .box{
+        width: 235px;
+    }
+
+    .selling_section .selling_car .image_group .box .image_content h3 {
+        font-size: 16px;
+    }
+
+    .selling_section .selling_car .image_group .box .image_content a {
+        font-size: 14px;
+        padding: 10px 16px;
+        letter-spacing: 0px;
+    }
+
+    .selling_section .selling_car .image_group{
+        gap: 2rem;
+    }
+
+    .selling_section .selling_car .button a{
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .sellers_section .box{
+        width: auto;
+    }
+
+    .sellers_section .box .item{
+        width: 300px;
+        margin: 10px 0px;
+    }
+
+    .sellers_section .box .item h2{
+        font-size: 18px;
+    }
+
+    .sellers_section .box .item h2 span{
+        font-size: 14px;
+    }
+
+    .sellers_section .box .title h2, .sellers_section .box .title h3{
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    }
+
+    .clant_section .box_group .main_title h2{
+        font-size: 16px;
+    }
+
+    .clant_section .box_group .main_title h2::before {
+        left: 10px;
+        width: 20%;
+    }
+
+    .clant_section .box_group .main_title h2::after {
+        right: 10px;
+        width: 20%;
+    }
+
+    .selling_section .selling_card .title h2{
+        font-size: 16px;
+    }
+
+    .selling_section .selling_card .title h2::before{
+        left: 50px;
+        width: 22%;
+    }
+
+    .selling_section .selling_card .title h2::after{
+        width: 22%;
+        left: 70%;
+    }
+
+    .selling_section .selling_card .selling_image{
+        gap: 15px;
+    }
+
+    .selling_section .selling_card .selling_image .item {
+        border-radius: 24px 5px;
+    }
+
+    footer .footer_area .footer_group .item .title h3 {
+        padding-top: 15px;
+    }
+
+    footer .footer_area .footer_group .copyright{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    .slider_section .slider_image .image{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .slider_section .slider_image .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* selling page */
+
+
+    .sell_car .info .dis p{
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .sell_car .info .dis .title h2{
+        font-size: 16px;
+    }
+
+    .selling_progress .selling .main_title h1{
+        font-size: 20px;
+    }
+
+    .selling_progress .selling .image_group .item .item_content{
+        width: auto;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .selling_progress .selling .image_group .item .item_content h2{
+        font-size: 16px;
+    }
+
+    .selling_progress .selling .image_group .item .item_content p{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .pricing_section .pricing .item .image img{
+        width: 100%;
+    }
+
+    .selling_section .selling_card .title h2::before{
+        left: 0;
+    }
+
+    .selling_section .selling_card .title h2::after{
+        left: 78%;
+    }
+
+    .pricing_section .pricing .item .content{
+        text-align: center;
+    }
+
+    .pricing_section .pricing .item .content h2{
+        font-size: 18px;
+    }
+
+    .pricing_section .pricing .item .content p{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .pricing_work .procing .box .left_side{
+        padding: 28px;
+    }
+
+    .pricing_work .procing .box .left_side h2{
+        font-size: 14px;
+    }
+
+    .pricing_work .procing .box .left_side h2 span{
+        font-size: 9px;
+        margin-left: 1rem;
+    }
+
+    .pricing_work .procing .box .left_side h3{
+        font-size: 12px;
+    }
+
+    .pricing_work .procing .box .right_side{
+        width: auto;
+    }
+
+    .pricing_work .procing .box .right_side .links h2{
+        font-size: 16px;
+    }
+
+    .contact_form .container .row .form{
+        width: auto;
+    }
+
+    .contact_form .container .row .form .left_side form .input_fild select {
+        padding: 10px 4rem;
+    }
+
+    .contact_form .container .row .form .left_side form .input_fild textarea , .contact_form .container .row .form .left_side form .input_fild input{
+        padding: 10px 4rem;
+    }
+
+    .contact_form .container .row .form .left_side .title h2{
+        font-size: 19px;
+    }
+
+    .contact_form .container .row .form .right_side .title h2{
+        text-align: center;
+        font-size: 19px;
+        margin: 2rem 0;
+    }
+
+    .contact_form .container .row .form .right_side .map{
+        width: auto;
+    }
+
+    .articles_section .container .row .articles .items .image{
+        width: auto;
+    }
+
+
+    .sellright_stories .popular_storie .title {
+        padding: 1rem .5rem;
+    }
+    .sellright_stories .popular_storie .box .item .image_content h2 {
+        font-size: 18px;
+    }
+
+    .articles_section .container .row .title {
+        margin-left: .5rem;
+    }
+
+    .magazine_section .magazine .content .title h2{
+        font-size: 14px;
+    }
+
+    .magazine_section .magazine .content .title p{
+        font-size: 12px;
+        color: #888;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .pricing-section .pricing .image .image_content{
+        left: 12%;
+    }
+
+    .pricing-section .pricing .image .image_content h2{
+        font-size: 22px;
+    }
+
+    .selling_progress .selling .image_group .item .item_content h2 {
+        font-size: 14px;
+    }
+
+    .selling_progress .selling .image_group .item .item_content p {
+        font-size: 10px;
+    }
+
+    
+
+    .model-section .model .item{
+        margin: 0 10px;
+    }
+
+    .model-section .model .item .title h1 {
+        font-size: 15px;
+    }
+
+    .model-section .model .item p{
+        font-size: 10px;
+        margin-right: 0;
+    }
+
+    .pricing-section .pricing .image .image_content p{
+        font-size: 15px;
+    }
+
+    .sell_car .info {
+        margin: 1rem;
+    }
+
+    .pricing_work .procing .box .right_side{
+        width: auto;
+        margin: 0 0;
+    }
+
+    .reviews_section .container .row .title h2 {
+        font-size: 20px;
+    }
+
+    .reviews_section .container .row .links ul li a{
+        font-size: 16px;
+    }
+
+    .reviews .container .row .title h2{
+        font-size: 19px;
+        padding: 1rem 4rem;
+        text-align: center;
+    }
+
+    .reviews .container .row .box .items .left_side .customer{
+        margin-top: 0;
+    }
+
+    .reviews .container .row .box .items .left_side .customer h3{
+        font-size: 16px;
+        display: inline-block;
+        padding-right: 4rem;
+    }
+
+    .reviews .container .row .box .items .right_side .sub_title h2{
+        font-size: 19px;
+        margin-top: 1rem;
+    }
+
+    .reviews .container .row .box .items .right_side .content p {
+        font-size: 13px;
+    }
+
+    .reviews .container .row .box .items .left_side .customer span{
+        font-size: 12px;
+    }
+
+    .reviews .container .row .box {
+        padding: 0;
+    }
+
+    .reviews .container .row .box .items .left_side , .reviews .container .row .box .items .right_side{
+        width: auto;
+    }
+
+    .reviews .container{
+        padding: 0;
+    }
+
+    .reviews .container .row .box .items{
+        border-bottom: none;
+    }
+
+    footer .footer_area .footer_group{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:768px) {
+
+    header .logo {
+        font-size: 12px;
+    }
+
+    header .logo span:nth-child(1){
+        font-size: 16px;
+    }
+
+    .hero_section .sellright .image .image_content {
+        left: 28%;
+    }
+
+    .hero_section .sellright .image .image_content h2 {
+        font-size: 34px;
+    }
+
+    .hero_section .sellright .image .image_content .car_product{
+        display: none;
+    }
+
+    .selling_progress .selling .image_group .item {
+        padding-top: 2rem;
+    }
+
+    .sellers_section .box .item {
+        height: 10rem;
+    }
+
+    .hero_section .sellright .image .image_content h2{
+        font-size: 24px;
+    }
+
+
+    .articles_section .container .row .articles {
+        gap: 8px;
+    }
+
+    .sellright_stories .popular_storie .title {
+        padding: 1rem .5rem;
+    }
+
+    .contact_form .container .row .form .right_side .map{
+        width: auto;
+    }
+
+    .contact_form .container .row .form .left_side form{
+        margin: 0 1rem;
+    }
+
+    .pricing-section .pricing .image .image_content{
+        left: 25%;
+    }
+
+    .pricing-section .pricing .image .image_content h2{
+        font-size: 20px;
+    }
+
+    .sell_car .info{
+        margin: 2rem;
+    }
+
+    .sell_car .info .dis .title h2{
+        font-size: 18px;
+    }
+
+    .selling_progress .selling .main_title h1{
+        font-size: 26px;
+    }
+
+
+    .pricing-section .pricing .image .image_content p{
+        font-size: 18px;
+    }
+
+    .sell_car .info .dis p{
+        margin-right: 0;
+    }
+
+    .selling_progress .selling .image_group .item .item_content h2 {
+        font-size: 19px;
+    }
+
+    .selling_progress .selling .image_group .item .item_content p {
+        font-size: 14px;
+        margin-right: 7rem;
+        text-align: justify;
+    }
+
+    .pricing_work .procing .box .right_side{
+        width: auto;
+        margin: 0 6.5rem;
+    }
+
+    .reviews .container .row .box .items .left_side , .reviews .container .row .box .items .right_side{
+        width: auto;
+        
+    }
+
+    .reviews .container .row .box .items .left_side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    .reviews .container .row .box .items{
+        border-bottom: none;
+    }
+
+    /* .contact_form .container .row .form .right_side .map{
+        width: auto;
+    } */
+
+    .selling_progress .selling .image_group .item .item_content{
+        width: auto;
+    }
+
+    .reviews .container .row .box .items{
+        justify-content: flex-start;
+    }
+
+    .reviews .container .row .box .items .left_side .star{
+        padding-bottom: 1rem;
+    }
+    header{
+        padding: 0 1rem;
+    }
+
+    header nav ul{
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    footer .footer_area .footer_group{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .hero_section .sellright .image .image_content .car_product .title{
+        padding: 15px 12px;
+    }
+
+    .hero_section .sellright .image .image_content .car_product .title a span{
+        font-size: 14px;
+    }
+
+    .hero_section .sellright .image .image_content .car_product .title span{
+        font-size: 12px;
+    }
+
+    .hero_section .sellright .image .image_content .car_product .btn a{
+        font-size: 16px;
+    }
+
+    .hero_section .sellright .image .image_content h2{
+        font-size: 28px;
+    }
+    
+    .contact_form .container .row .form .right_side .map{
+        width: auto;
+    }
+    
+    .reviews .container .row .box .items{
+        border-bottom: none;
+    }
+    
+    header nav ul{
+        gap: 10px;
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    
+    .pricing-section .pricing .image .image_content{
+        left: 23%;
+    }
+
+    .hero_section .sellright .image .image_content {
+        left: 20%;
+    }
+
+    .sellers_section .box .item{
+        text-align: center;
+        height: 10rem;
+    }
+    
+    .sellers_section .box .item h2{
+        font-size: 20px;
+    }
+    
+    .sellers_section .box .item h2 span{
+        padding-top: 3px;
+        letter-spacing: .5px;
+        font-size: 12px;
+        display: block;
+    }
+
+    .sell_car .info .dis p{
+        margin-right: 0;
+    }
+
+    .pricing_work .procing .box .right_side {
+        width: auto;
+        margin: 0 9rem;
+    }
+
+    .model-section .model .item p{
+        margin-right: 0;
+        text-align: justify;
+    }
+
+    .selling_progress .selling .image_group .item {
+        margin-top: 2rem;
+    }
+
+    .pricing-section .pricing .image .image_content h2{
+        font-size: 50px;
+    }
+
+    .reviews_section .container .row .title h2{
+        font-size: 26px;
+    }
+
+    .hero_section .sellright .image .image_content .car_product .btn {
+        padding: 24px 20px;
+    }
+
+
+
+    .selling_progress .selling .image_group .item .item_content h2{
+        font-size: 26px;
+    }
+
+    .selling_progress .selling .image_group .item .item_content p{
+        font-size: 12px;
+    }
+
+    footer .footer_area .footer_group{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
