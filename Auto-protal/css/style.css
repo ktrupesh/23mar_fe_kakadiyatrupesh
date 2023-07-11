@@ -1,0 +1,1312 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=IBM+Plex+Sans:wght@100&family=Italianno&family=Nunito:wght@200&family=Plaster&family=Playfair+Display&family=Poppins:wght@100&family=Raleway:wght@100&family=Spirax&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header start */
+
+
+header .toggler_btn{
+    display: none;
+}
+
+header .toggler_btn a i{
+    color: #fff;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #fff;
+    padding: 0px 20px;
+    height: 80px;
+    line-height: 80px;
+    background: #111;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+}
+
+header .logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: 0 4rem;
+}
+
+header .logo span:nth-child(1){
+    background: red;
+    display: inline-block;
+    font-size: 32px;
+    width: 40px;
+    text-align: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav ul li a{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+
+header nav ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #fff;
+    height: 4px;
+    left: 0;
+    bottom: -10px;
+    transition: all 1s ease-in-out;
+}
+
+header nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+/* header End  */
+
+
+/* hero sectin start  */
+
+
+.hero_section .sellright .image{
+    position: relative;
+}
+
+.hero_section .sellright .image img{
+    width: 100%;
+    /* z-index: -2; */
+}
+
+.hero_section .sellright .image .image_content{
+    position: absolute;
+    text-align: center;
+    left: 16%;
+    top: 25%;
+}
+
+.hero_section .sellright .image .image_content h3{
+    /* font-size: 32px; */
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.hero_section .sellright .image .image_content h3 span{
+    color: aqua;
+}
+
+.hero_section .sellright .image .image_content h3 i{
+    font-size: 28px;
+    color: aqua;
+}
+
+.hero_section .sellright .image .image_content h2{
+    font-size: 48px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.hero_section .sellright .image .image_content h4{
+    color: #fff;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.hero_section .sellright .image .image_content .car_product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    /* gap: 40px; */
+}
+
+.hero_section .sellright .image .image_content .car_product .title{
+    background: #fff;
+    padding: 15px 38px;
+    border-right: 1.5px solid #d9d9d9;
+}
+
+.hero_section .sellright .image .image_content .car_product .title:nth-child(1){
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.hero_section .sellright .image .image_content .car_product .title a{
+    display: block;
+    color: #111;
+}
+
+.hero_section .sellright .image .image_content .car_product .btn{
+    background: red;
+    padding: 22px 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.hero_section .sellright .image .image_content .car_product .btn a{
+    font-size: 18px;
+    color: #fff;
+}
+
+/* hero sectin End  */
+
+/* selling setion start  */
+
+.selling_section{
+    padding: 25px 0px;
+}
+
+.selling_section .selling_car .title{
+    text-align: center;
+}
+
+.selling_section .selling_car .title h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 7, 121);
+}
+
+.selling_section .selling_car .image_group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+
+.selling_section .selling_car .image_group .box{
+    width: 300px;
+    position: relative;
+}
+
+.selling_section .selling_car .image_group .box .image img{
+    width: 100%;
+}
+
+.selling_section .selling_car .image_group .box .image_content{
+    text-align: center;
+    padding: 20px;
+}
+
+.selling_section .selling_car .image_group .box .image_content h3{
+    color: darkblue;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.selling_section .selling_car .image_group .box .image_content p{
+    color: #555;
+    margin-bottom: 1.2rem;
+    font-family: sans-serif;
+}
+
+.selling_section .selling_car .image_group .box .image_content a{
+    color: #fff;
+    background: lightseagreen;
+    padding: 10px 20px;
+    border-radius: 14px 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    transition: all .2s ease-in-out;
+}
+
+.selling_section .selling_car .image_group .box .image_content a:hover{
+    color: lightseagreen;
+    background: #fff;
+    border: 1.5px solid lightseagreen;
+}
+
+.selling_section .selling_car .button{
+    text-align: center;
+    margin-top: 5rem ;
+}
+
+.selling_section .selling_car .button a{
+    font-size: 18px;
+    background: darkblue;
+    color: #fff;
+    border-radius: 10px 5px;
+    padding: 10px 20px;
+    transition: all .2s ease-in-out;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+}
+
+.selling_section .selling_car .button a:hover{
+    background: #fff;
+    color: darkblue;
+    border-radius: 0px;
+    box-shadow: 0 0 5px  darkblue inset;
+    border: 1.5px solid darkblue;
+    text-decoration: underline ;
+}
+
+/* selling setion End  */
+
+.sellers_section{
+    padding: 25px 0px;
+}
+
+.sellers_section .box{
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+    padding: 20px;
+    /* background: #2e054e; */
+    background: lightseagreen;
+}
+
+.sellers_section .box .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: #f3f3f3;
+}
+
+.sellers_section .box .title h2 , .sellers_section .box .title h3{
+    font-size: 22px;
+    font-family: 'Italianno', cursive;
+}
+
+.sellers_section .box .title h3 span{
+    color: green;
+}
+
+.sellers_section .box .items_group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sellers_section .box .item{
+    width: 30%;
+    padding: 15px;
+    /* background: rgb(10, 122, 116); */
+    background: aqua;
+    border-radius: 8px;
+    /* box-shadow: 0 0 3px ; */
+}
+
+.sellers_section .box .item h2{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.sellers_section .box .item h2 span{
+    font-size: 16px;
+}
+
+.sellers_section .box .item a{
+    background: #fff;
+    display: inline-block;
+    color: aqua;
+    width: 34px;
+    height: 34px;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.sellers_section .box .item a i{
+    font-size: 16px;
+}
+
+/* clant_section start  */
+
+.clant_section{
+    padding: 25px 0px;
+}
+
+.clant_section .box_group .main_title{
+    text-align: center;
+}
+
+.clant_section .box_group .main_title h2{
+    position: relative;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.clant_section .box_group .clint {
+    margin-top: 5rem;
+}
+
+.clant_section .box_group .clint .image_group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.clant_section .box_group .clint .image_group .image{
+    width: 320px;
+    box-shadow: 0 0 3px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.clant_section .box_group .clint .image_group .image .img img{
+    width: 100%;
+}
+
+.clant_section .box_group .clint .image_group .image .img {
+    position: relative;
+}
+
+.clant_section .box_group .clint .image_group .image .img .play_btn{
+    position: absolute;
+    top: 38%;
+    left: 40%; 
+    border-radius: 44px;
+    overflow: hidden;
+}
+
+.clant_section .box_group .clint .image_group .image .img .play_btn a{
+    width: 74px;
+    height: 74px;
+    border-radius: 44px;
+    display: inline-block;
+    border: 2px solid #fff;
+    line-height: 74px;
+    color: #fff;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    inset: 2px;
+    transform: scale(1);
+}
+
+.clant_section .box_group .clint .image_group .image .img .play_btn a i{
+    font-size: 20px;
+}
+
+.clant_section .box_group .clint .image_group .image .img .play_btn:hover a{
+    background: blue;
+    color: #fff;
+    transform: rotateZ(360deg);
+    transform: scale(1.5);
+
+}
+
+.clant_section .box_group .clint .image_group .image_content{
+    background: #fff;
+    padding: 20px;
+}
+
+.clant_section .box_group .clint .image_group .image_content .clint_name{
+    display: block;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(24, 10, 85);
+}
+
+.clant_section .box_group .clint .image_group .image_content .city{
+    color: #999;
+}
+
+/* clant_section End  */
+
+/* selling section car start  */
+.selling_section{
+    padding: 25px 0px;
+}
+
+.selling_section .selling_card .title{
+    text-align: center;
+}
+
+.selling_section .selling_card .title h2{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+
+.selling_section .selling_card .selling_image{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.selling_section .selling_card .selling_image .item{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    /* box-shadow: 0px 15px 3px #888 inset; */
+}
+
+.selling_section .selling_card .selling_image .item .img{
+    width: 350px;
+    height: 300px;
+}
+
+.selling_section .selling_card .selling_image .item .img img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+
+.selling_section .selling_card .selling_image .item:hover .img img{
+    transform: scale(1.5);
+}
+
+.selling_section .selling_card .selling_image .item .image_content{
+    position: absolute;
+    top: 80%;
+    padding-left: 10%;
+}
+
+
+.selling_section .selling_card .selling_image .item .image_content span{
+    color: #111;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    display: block;
+    background: #fff;
+    padding: 8px 20px;
+    border: 1.5px solid #333;
+}
+
+
+.selling_section .selling_card .selling_image .item:hover .image_content span{
+    opacity: 1;
+}
+/* selling section car End  */
+
+
+/* footer start  */
+
+footer{
+    background: #2e054e;
+    padding: 30px;
+}
+
+footer .footer_area .footer_group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+footer .footer_area .footer_group  .item{
+    width: 300px;
+}
+
+footer .footer_area .footer_group  .item .footer_logo .logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+footer .footer_area .footer_group  .item .footer_logo .logo span:nth-child(1){
+    background: red;
+    padding: 8px 4px;
+    font-size: 24px;
+}
+
+footer .footer_area .footer_group  .item .footer_logo p{
+    padding: 1.5rem 0;
+    color: #f3f3f3;
+    font-family: "Poppins" , sans-serif;
+    font-size: 14px;
+}
+
+footer .footer_area .footer_group .copyright{
+    padding-top: 3rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+footer .footer_area .footer_group   .copyright p{
+    color: #f3f3f3;
+    font-family: "Poppins" , sans-serif;
+}
+
+footer .footer_area .footer_group  .item .social_links a{
+    padding: 10px;
+    font-size: 24px;
+}
+
+footer .footer_area .footer_group  .item .social_links a i{
+    color: #f3f3f3d2;
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+
+}
+
+footer .footer_area .footer_group  .item .social_links a:hover i{
+    transform: scale(1.5);
+}
+
+footer .footer_area .footer_group  .item .links ul{
+    margin-top: 20px;
+}
+
+footer .footer_area .footer_group  .item .links ul li{
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+footer .footer_area .footer_group  .item .links ul li a{
+    color: #f3f3f3;
+    font-family: "Poppins" , sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+footer .footer_area .footer_group  .item .links ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .footer_area .footer_group  .item .title h3{
+    color: #fff;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* footer End  */
+
+
+/* sell page start  */
+
+/* slider section start  */
+
+.slider_section .slider_image .image{
+    width: 100%;
+    height: 100vh;
+}
+
+.slider_section .slider_image .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* slider section End  */
+
+/* sell_car section start  */
+
+.sell_car .info {
+    margin: 2rem 4rem;
+}
+
+.sell_car .info .dis{
+    padding: 2rem 0;
+}
+
+.sell_car .info .dis .title h2{
+    padding: 1.5rem 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sell_car .info .dis p{
+    margin-right:  14rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sell_car .info .dis .home_btn{
+    padding-top: 2rem;
+}
+
+.sell_car .info .dis .home_btn a{
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    text-align: center;
+    line-height: 3em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: #111;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.sell_car .info .dis .home_btn a::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #fff;
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.sell_car .info .dis .home_btn a::before{
+    content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.sell_car .info .dis .home_btn a:hover::before ,.sell_car .info .dis .home_btn a:hover::after{
+    transform: scale(0)
+}
+
+.sell_car .info .dis .home_btn a:hover{
+    box-shadow: inset 0px 0px 25px #1479EA;
+}
+/* sell_car section End  */
+
+
+/* selling progress start  */
+
+.selling_progress .selling .image_group .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selling_progress .selling .image_group{
+    background: rgba(233, 233, 233, 0.549);
+}
+
+.selling_progress .selling .main_title{
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.selling_progress .selling .main_title h1{
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.selling_progress .selling .image_group .item .item_content{
+    width: 50%;
+    padding-left: 3rem;
+}
+
+.selling_progress .selling .image_group .item .item_content h2{
+    color: rgb(7, 7, 56);
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.selling_progress .selling .image_group .item .item_content p{
+    text-align: justify;
+    margin-top: 2rem ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.selling_progress .selling .image_group .item .image{
+    width: 30%;
+}
+
+.selling_progress .selling .image_group .item .image img{
+    width: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0px 0px 13px lightblue);
+}
+
+/* selling End  */
+
+/* pricing section start  */
+
+.pricing_section .pricing{
+    padding: 3rem 0;
+}
+
+.pricing_section .pricing .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pricing_section .pricing .item .content h2{
+    color: rgb(43, 19, 103);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing_section .pricing .item .content p{
+    color: rgb(43, 19, 103);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing_section .pricing .item .content .button{
+    padding: 18px 0;
+}
+
+.pricing_section .pricing .item .content .button a{
+    color: #111;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* pricing section End  */
+
+/* pricing work start  */
+
+.pricing_work .procing .box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px 0px;
+}
+
+.pricing_work .procing .box .left_side h2{
+    font-size: 22px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing_work .procing .box .left_side h2 span{
+    font-size: 16px;
+    margin-left: 2rem;
+}
+
+.pricing_work .procing .box .right_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.pricing_work .procing .box .right_side{
+    border-radius: 18px;
+    padding: 20px;
+    background: #eaeaea;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing_work .procing .box .left_side{
+    border-radius: 18px;
+    padding: 58px;
+    background: #eaeaea;
+}
+
+.pricing_work .procing .box .right_side .image{
+    width: 30%;
+}
+
+.pricing_work .procing .box .right_side .image img{
+    width: 100%;
+}
+
+/* pricing work End  */
+
+/* pricing car page start  */
+
+.pricing-section .pricing .image{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.pricing-section .pricing .image img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.pricing-section .pricing .image .image_content{
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    text-align: center;
+}
+
+.pricing-section .pricing .image .image_content h2 , .pricing-section .pricing .image .image_content p{
+    color: #fff;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.pricing-section .pricing .image .image_content p{
+    font-size: 18px;
+    padding-top: 1rem;
+}
+
+
+.model-section .model .item{
+    margin: 3rem 8rem;
+}
+
+.model-section .model .item .title{
+    padding: 1rem 0;
+}
+
+.model-section .model .item .title h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 10, 85);
+    font-size: 28px;
+}
+
+.model-section .model .item p{
+    font-size: 18px;
+    color: #999;
+    margin-right: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* model car End  */
+.browse_section{
+    padding: 25px 0px;
+}
+
+.browse_section .browse{
+    margin: 20px 0px;
+}
+
+.browse_section .browse .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.browse_section .browse .button h2 a{
+    background: rgb(43, 19, 103);
+    color: #fff;
+    padding: 10px 40px;
+    font-weight: 200;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.browse_section .browse .button::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    height: 1px;
+    background: #777;
+}
+
+.browse_section .browse .button::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -100%;
+    left: 0;
+    height: 1px;
+    background: #777;
+}
+
+/* blog page start  */
+
+
+/* sellright magazine start */
+
+.magazine_section .magazine{
+    background: linear-gradient(to right , #04146180 , #04146180) , url("../image/slider2.jpg") ;
+    background-size: 100% 100%;
+    /* background-size: cover cover; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.magazine_section .magazine .content{
+    padding: 3rem;
+}
+
+.magazine_section .magazine .content .title h2{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.magazine_section .magazine .content .title p{
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* sellright  stories start  */
+
+.sellright_stories .popular_storie .title{
+    padding: 1rem 5.5rem;
+}
+
+.sellright_stories .popular_storie .title h2{
+    padding: 1rem 5.5rem;
+    color: #2e054e;
+}
+
+.sellright_stories .popular_storie .box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.sellright_stories .popular_storie .box .item{
+    width: 380px;
+    overflow: hidden;
+}
+
+.sellright_stories .popular_storie .box .item .image{
+    height: 200px;
+    overflow: hidden;
+}
+
+.sellright_stories .popular_storie .box .item .image img{
+    border-radius: 8px;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    transition: all .9s ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.sellright_stories .popular_storie .box .item:hover .image img{
+    transform: scale(1.5);
+}
+
+.sellright_stories .popular_storie .box .item .image_content{
+    height: 150px;
+    padding: 1rem;
+}
+
+.sellright_stories .popular_storie .box .item .image_content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 1rem;
+
+}
+
+.sellright_stories .popular_storie .box .item .image_content h2 a{
+    color: #111;
+}
+
+.sellright_stories .popular_storie .box .item .image_content span{
+    font-size: 16px;
+    letter-spacing: .5px;
+    padding: 0 5px;
+}
+
+.sellright_stories .popular_storie .box .item .image_content span a{
+    color: #999;
+}
+
+
+/* sellright  stories End  */
+
+
+/* blog section start  */
+
+.articles_section .container{
+    padding-bottom: 3rem;
+}
+
+.articles_section .container .row .title{
+    margin-left: 6.5rem;
+}
+
+.articles_section .container .row .title h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2e054e;
+}
+
+.articles_section .container .row .articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+
+.articles_section .container .row .articles .items{
+    width: 380px;
+}
+
+.articles_section .container .row .articles .items .image{
+    width: 380px;
+}
+
+.articles_section .container .row .articles .items .image img{
+    width: 100%;
+}
+
+.articles_section .container .row .articles .items .image .image_content{
+    height: 150px;
+    text-align: center;
+    padding: 1rem;
+    background: #f6f6f6;
+}
+
+.articles_section .container .row .articles .items .image .image_content a{
+    color: #fff;
+    background: rgb(47, 5, 88);
+    padding: 10px 20px;
+    border-radius: 8px;
+    letter-spacing: .5px;
+    transition: all .2s ease-in-out;
+}
+
+.articles_section .container .row .articles .items .image .image_content a:hover{
+    color: rgb(47, 5, 88);
+    background: #fff;
+    border: 1px solid rgb(47, 5, 88);
+}
+
+
+.articles_section .container .row .articles .items .image .image_content h2{
+    padding-top: 14px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.articles_section .container .row .articles .items .image .image_content .owenr{
+    margin: 1rem;
+}
+
+.articles_section .container .row .articles .items .image .image_content .owenr span{
+    padding: 0 5px;
+    color: #999;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .8px;
+}
+
+/* blog section End  */
+
+/* contact page start  */
+
+.contact_us .container .row .contact_iamge{
+    width: auto;
+    height: 500px;
+}
+
+.contact_us .container .row .contact_iamge img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+
+.contact_form .container .row .form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    width: 70%;
+    background: #f3f3f3;
+}
+
+
+.contact_form .container .row .form .left_side .title h2{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(24, 10, 85);
+    padding: 1.5rem 0;
+}
+
+.contact_form .container .row .form .left_side form .input_fild{
+    margin: 2rem 0;
+}
+
+.contact_form .container .row .form .left_side form .input_fild select{
+    padding: 10px 5rem;
+    outline: none;
+    /* border-radius: 8px; */
+}
+
+.contact_form .container .row .form .left_side form .input_fild input{
+    padding: 10px 5rem;
+    outline: none;
+}
+
+.contact_form .container .row .form .left_side form .input_fild textarea{
+    
+    padding: 5px 5rem;
+    outline: none;
+}
+
+.contact_form .container .row .form .left_side form .input_fild input[type=submit]{
+    background: red;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.contact_form .container .row .form .right_side .title h2{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(24, 10, 85);
+}
+
+.contact_form .container .row .form .right_side .map{
+    width: 500px;
+    height: 450px;
+    /* margin-top: 100px; */
+}
+
+.contact_form .container .row .form .right_side .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* contact page End  */
+
+/* cusomer reviews page start  */
+
+.reviews_section{
+    padding: 2rem 3rem 0 3rem;
+    background: #f3f3f3;
+    position: sticky;
+    top: 14%;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    border-bottom: 1px solid #777;
+}
+
+.reviews_section .container .row .title h2{
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(47, 5, 88);    
+}
+
+.reviews_section .container .row .links ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin: 25px 0 0  0;
+}
+
+.reviews_section .container .row .links ul li {
+    border-bottom: 3px solid red;
+}
+
+.reviews_section .container .row .links ul li a{
+    font-size: 22px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.reviews_section .container .row .links ul .sellers a{
+    color: #999;
+    border-bottom: 3px solid #999;
+}
+
+/* reviews section start  */
+
+
+/* reviews section end  */
+
+.reviews .container{
+    padding: 2rem ;
+}
+
+.reviews .container .row .box .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #999;
+}
+
+.reviews .container .row .box {
+    padding: 3rem 0;
+}
+
+.reviews .container .row .box .items{
+    padding: 20px;
+}
+
+.reviews .container .row .box .items .left_side , .reviews .container .row .box .items .right_side{
+    width: 50%;
+}
+
+.reviews .container .row .box .items .left_side .star{
+    padding-bottom: 3rem;
+}
+
+.reviews .container .row .box .items .left_side .customer{
+    margin-top: 1rem;
+}
+
+.reviews .container .row .box .items .left_side .star a i{
+    font-size: 24px;
+    color: #ffdd39;
+}
+
+.reviews .container .row .box .items .right_side .sub_title{
+    padding: 20px 0;
+}
+
+.reviews .container .row .box .items .right_side .sub_title h2{
+    color: #2e054e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reviews .container .row .box .items .right_side .content p{
+    line-height: 1.5rem;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* cusomer reviews page End  */
