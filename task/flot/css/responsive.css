@@ -1,0 +1,864 @@
+@media screen and (min-width:320px) and (max-width:500px){
+
+    header .toggler_btn{
+        display: block;
+        width: 20%;
+        float: right;
+        margin-top: -8px;
+    }
+
+    header nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #000;
+        transition: .2s;
+        height: 450px;
+        display: block;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header .header_btn{
+        display: none;
+        width: auto;
+        margin-top: -7px;
+    }
+    
+    header .header_btn a{
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+
+    header nav ul a:hover{
+        color: #fff;
+    }
+
+    .hero_section .hero .item{
+        padding: 0;
+    }
+
+    .hero_section .hero .item .left_side{
+        width: auto;
+        padding: 0;
+    }
+
+    .hero_section .hero .item .left_side .hero_title{
+        text-align: center;
+    }
+
+    .hero_section .hero .item .left_side .hero_title h1{
+        font-size: 20px;
+        width: auto;
+    }
+
+    .hero_section .hero .item .left_side .hero_title h1 span{
+        border-bottom: none;
+    }
+
+    .hero_section .hero .item .left_side p{
+        margin: 2rem;
+        font-size: 14px;
+    }
+
+    .hero_section .hero .item .left_side .emial_box{
+        left: 0;
+    }
+
+    .hero_section .hero .item .left_side .emial_box{
+        margin-top: -1rem;
+    }
+
+    .hero_section .hero .item .left_side .emial_box .icon{
+        width: 15%;
+        text-align: center;
+    }
+
+    .hero_section .hero .item .left_side .emial_box .mail_add{
+        width: 45%;
+        text-align: center;
+    }
+
+    .hero_section .hero .item .left_side .emial_box .mail_btn{
+        width: 40%;
+        text-align: center;
+    }
+
+    .hero_section .hero .item .right_side{
+        width: auto;
+        margin-top: 4rem;
+    }
+
+    .workout_section .workout .box{
+        padding: 10rem 1rem;
+    }
+
+    /* .workout_section .workout .box .image_group .item .img img{
+        width: auto;
+    } */
+
+    .workout_section .workout .top .left_side{
+        width: auto;
+    }
+
+    .workout_section .workout .top .left_side .title{
+        padding-left: 1.5rem;
+    }
+
+    .workout_section .workout .top .left_side .title h2{
+        letter-spacing: 0;
+        font-size: 16px;
+    }
+
+    .workout_section .workout .top .right_side{
+        width: auto;
+    }
+
+    .workout_section .workout .top .right_side{
+        padding-top: 1rem;
+    }
+    
+    .workout_section .workout .top .right_side .content{
+        padding: 0;
+    }
+
+    .workout_section .workout .box .image_group .item{
+        width: auto;
+        padding: 1rem 0;
+    }
+
+    .workout_section .workout .box .image_group .item .img .content h3, .workout_section .workout .box .image_group .item .img .content span{
+        font-size: 16px;
+    }
+
+    .basketball_section .basketvall .box .item .left_side{
+        width: auto;
+    }
+
+    .basketball_section .basketvall .box .item{
+        height: 40rem;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content span{
+        padding: 0 4rem;
+    }
+
+    .basketball_section .basketvall .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content h2{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content p{
+        margin: 0;
+        text-align: center;
+        font-size: 19px;
+        margin-top: 2rem;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content p a{
+        padding-top: 1rem;
+    }
+
+    .learn_section .learn .box .item .left_side , .learn_section .learn .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .learn_section .learn .box .item .left_side .image .play_btn {
+        top: 35%;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left .btn{
+        margin: 3rem 0;
+    }
+
+    .learn_section .learn .box .item .right_side .content .title h2{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .learn_section .learn .box .item .right_side .content .sub_title{
+        padding: 0;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left{
+        width: auto;
+        float: none;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .right{
+        width: auto;
+        float: none;
+    }
+
+    .facility_section .facilitys .box .item .left_side{
+        width: auto;
+        float: none;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .title{
+        width: auto;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .title h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .facility h4 span:nth-child(2){
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    .facility_section .facilitys .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .facility_section .facilitys .box .item .right_side .image .play_btn span{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .facility_section .facilitys .box .item .right_side .image .icon span{
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    .facility_section .facilitys .box .item .right_side .image .download h3 span:nth-child(1){
+        font-size: 16px;
+    }
+
+    .facility_section .facilitys .box .item .right_side .image .download h3 span:nth-child(2){
+        font-size: 16px;
+    }
+
+    .facility_section .facilitys .box .item .right_side .image .download{
+        bottom: -12%;
+    }
+
+    .consultant_section .consultant .box .item .left_side{
+        width: auto;
+        float: none;
+    }
+
+    .consultant_section .consultant .box .item .left_side .image .image_card{
+        display: none;
+    }
+
+    .consultant_section .consultant .box .item .left_side .image .messenger{
+        top: 13%;
+    }
+
+    .consultant_section .consultant .box .item .left_side .image .messenger span{
+        font-size: 14px;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left h4 span, .learn_section .learn .box .item .right_side .content .section .right h4 span{
+        margin: 0 3px;
+    }
+
+    .consultant_section .consultant .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content{
+        padding: 0;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .title h2{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .dec{
+        padding: 0 1rem;
+        /* text-align: center; */
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .dec p{
+        font-size: 15px;
+    }
+
+    .course_section{
+        padding: 0;
+    }
+
+    .course_section .course .box{
+        width: auto;
+    }
+
+    .course_section .course .box .item{
+        width: auto;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .course_section .course .box .item .image .hover{
+        bottom: -28%;
+    }
+
+    .course_section .course .box .item .image img{
+        width: auto;
+    }
+
+    .coming_section{
+        margin-top: 0;
+    }
+
+    .coming_section .coming .box{
+        width: auto;
+    }
+
+    .coming_section .coming .box .item{
+        margin: 1rem;
+    }
+
+    .coming_section .coming .box .item .left_side{
+        width: auto;
+        float: none;
+        padding: 1rem 0;
+    }
+
+    .coming_section .coming .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .member_section .member .box .title h2 {
+        font-size: 24px;
+    }
+
+    .member_section .member .box .item .left_side{
+        width: auto;
+        float: none;
+    }
+
+    .member_section .member .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .subscribe_section .subscribe .box .item .title h2{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .subscribe_section .subscribe .box .item p{
+        font-size: 14px;
+        padding: 1rem;
+    }
+
+    footer .footer_box .box{
+        width: auto;
+        margin: 0;
+    }
+
+    footer .footer_box .box .item_group .item{
+        width: auto;
+        float: none;
+        padding: 0 2rem;
+    }
+
+    footer .footer_box .box .item_group .item .links{
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:768px){
+    
+    header .logo a img{
+        width: 100%;
+    }
+
+    header nav ul{
+        text-align: center;
+    }
+
+    header nav ul a{
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    header .header_btn a{
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+
+    .hero_section .hero .item .left_side{
+        width: auto;
+        float: none;
+        padding: 0;
+    }
+
+    .hero_section .hero .item .left_side .hero_title h1{
+        width: auto;
+        font-size: 20px;
+    }
+
+    .hero_section .hero .item .left_side p{
+        margin: 2rem 0;
+        font-size: 14px;
+    }
+
+    .hero_section .hero .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .hero_section .hero .item .left_side .emial_box{
+        margin: 0;
+    }
+
+    .hero_section .hero .item .right_side .image{
+        margin: 5rem 0;
+    }
+
+    .workout_section .workout .top .left_side{
+        width: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .workout_section .workout .top .left_side .title{
+        padding: 0;
+    }
+
+    .workout_section .workout .top .right_side{
+        width: auto;
+        float: none;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .workout_section .workout .top .right_side .content{
+        padding: 0;
+        text-align: center;
+    }
+
+    .workout_section .workout .box{
+        padding: 3rem 0;
+    }
+
+    .workout_section .workout .box .image_group .item{
+        width: auto;
+        float: none;
+        padding: 2rem;
+    }
+
+    .workout_section .workout .box .image_group .item:nth-child(2),
+    .workout_section .workout .box .image_group .item:nth-child(3),
+    .workout_section .workout .box .image_group .item:nth-child(4){
+        float: none;
+    }
+
+    .basketball_section .basketvall .box{
+        width: auto;
+        margin: 0;
+    }
+
+    .basketball_section .basketvall .box .item{
+        height: 11rem;
+    }
+
+    .basketball_section .basketvall .box .item .left_side .image{
+        position: relative;
+        height: 130px;
+    }
+
+    .basketball_section .basketvall .box .item .left_side .image img{
+        height: 100%;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content{
+        line-height: normal;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content h2{
+        margin-top: 2rem;
+    }
+
+    .basketball_section .basketvall .box .item .left_side .image .play_btn{
+        top: 33%;
+    }
+    .basketball_section .basketvall .box .item .left_side .image .play_btn h2{
+        width: 44px;
+        height: 44px;
+        line-height: 36px;
+    }
+
+    .basketball_section .basketvall .box .item .left_side .image .play_btn h2 i{
+        font-size: 20px;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content h2{
+        font-size: 18px;
+    }
+    .basketball_section .basketvall .box .item .right_side .content p{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .learn_section .learn .box .item{
+        width: auto;
+    }
+
+    .learn_section .learn .box .item .left_side{
+        width: auto;
+        float: none;
+        padding: 0 2rem;
+    }
+
+    .learn_section .learn .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .learn_section .learn .box .item .right_side .content .title h2{
+        font-size: 24px;
+        padding-bottom: 22px;
+    }
+
+    .learn_section .learn .box .item .right_side .content .sub_title{
+        padding: 1rem;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left h4 span, .learn_section .learn .box .item .right_side .content .section .right h4 span{
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left h4 span:nth-child(2), .learn_section .learn .box .item .right_side .content .section .right h4 span:nth-child(2){
+        font-size: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+    }
+
+    .facility_section .facilitys .box .item{
+            width: auto;
+            margin: 0;
+    }
+
+    .facility_section .facilitys .box .item .left_side{
+        width: auto;
+        float: none;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .title{
+        width: auto;
+        text-align: center;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .title h2{
+        font-size: 24px;
+    }
+
+    .facility_section .facilitys{
+        padding: 2rem 6rem;
+    }
+
+    .facility_section .facilitys .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .consultant_section .consultant .box .item{
+        width: auto;
+        padding: 0;
+    }
+
+    .consultant_section .consultant .box .item .left_side{
+        width: auto;
+        float: none;
+    }
+
+    .consultant_section .consultant .box .item .left_side .image .image_card{
+        bottom: 18%;
+        right: 25%;
+    }
+
+    .consultant_section .consultant .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content{
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .title h2{
+        font-size: 28px;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .dec{
+        padding: 1rem 0;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content{
+        margin: 1rem 0;
+    }
+
+    .course_section{
+        padding: 1rem 0;
+    }
+
+    .course_section .course .box .title h2{
+        font-size: 28px;
+    }
+
+    .course_section .course .box .item{
+        width: auto;
+        float: none;
+        margin: 2rem 0;
+    }
+
+    .course_section .course .box .item .image .hover{
+        bottom: -13%;
+    }
+
+    .coming_section .coming .box{
+        width: auto;
+    }
+
+    .coming_section{
+        margin-top: 0;
+    }
+
+    .coming_section .coming .box .item .left_side{
+        width: auto;
+        float: none;
+    }
+
+    .coming_section .coming .box .item .right_side{
+        width: auto;
+        float: none;
+        margin-top: 2rem;
+    }
+
+    .member_section .member .box{
+        width: auto;
+    }
+
+    .member_section .member .box .item .left_side{
+        width: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .member_section .member .box .item .left_side .content .quote{
+        display: none;
+    }
+
+    .member_section .member .box .item .right_side{
+        width: auto;
+        float: none;
+    }
+
+    .subscribe_section .subscribe .box{
+        width: auto;
+    }
+
+    .subscribe_section .subscribe .box .item .title h2{
+        font-size: 28px;
+    }
+
+    .member_section .member .box .item .left_side .content{
+        padding: 0;
+    }
+
+    footer .footer_box .box{
+        width: auto;
+    }
+
+    footer .footer_box .box .item_group .item{
+        width: auto;
+        float: none;
+    }
+
+    footer .footer_box .box .item_group .item{
+        margin: 0 4rem ;
+    }
+
+    footer .footer_box .box .item_group .item .links{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    header nav ul a{
+        margin: 0 1rem;
+        font-size: 16px;
+    }
+
+    .hero_section .hero .item .left_side .hero_title h1{
+        width: auto;
+        font-size: 34px;
+    }
+
+    .hero_section .hero .item .left_side .emial_box{
+        margin-top: 1rem;
+    }
+
+    .workout_section .workout .top .right_side .content{
+        padding: 0;
+    }
+
+    .workout_section .workout .top .left_side .title h2{
+        font-size: 22px;
+    }
+
+    .workout_section .workout .top .right_side .content .Expoler_btn a{
+        background: red;
+        color: #fff;
+        border-bottom: none;
+        border-radius: 18px;
+        padding: 10px 20px;
+    }
+
+    .workout_section .workout .box .image_group .item .img .content h3, .workout_section .workout .box .image_group .item .img .content span{
+        font-size: 18px;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content{
+        margin: 3rem 0;
+    }
+
+    .basketball_section .basketvall .box .item{
+        height: 14rem;
+    }
+
+    .learn_section .learn .box .item .right_side .content .title h2{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .learn_section .learn .box .item .right_side .content .title{
+        padding: 0;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left h4 span:nth-child(1), .learn_section .learn .box .item .right_side .content .section .right h4 span:nth-child(1){
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left h4 span, .learn_section .learn .box .item .right_side .content .section .right h4 span{
+        margin: 0 3px;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left .btn{
+        margin: 3rem 0;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .title{
+        padding: 1rem;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .title h2{
+        font-size: 26px;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .facility h4{
+        margin: 1rem 0;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .facility h4 span:nth-child(2){
+        font-size: 16px;
+    }
+
+    .facility_section .facilitys .box .item .left_side .content .facility h4 span:nth-child(1){
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content{
+        padding: 1rem 4rem;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .title h2{
+        font-size: 24px;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .dec{
+        padding: 0;
+    }
+
+    .consultant_section .consultant .box .item .right_side .content .dec p{
+        font-size: 14px;
+    }
+
+    .consultant_section .consultant .box .item .left_side .image .image_card{
+        bottom: 0%;
+        height: 100%;
+    }
+
+    .course_section .course .box .title h2{
+        font-size: 26px;
+    }
+
+    .course_section .course .box .item .image .image_content .plyer h3{
+        font-size: 18px;
+    }
+
+    .course_section .course .box .item .image .image_content .plyer span{
+        font-size: 14px;
+    }
+
+    .course_section .course .box .item .image .hover{
+        bottom: -30%;
+    }
+
+    .course_section .course .box .item .image .image_content .btn a:nth-child(1){
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+
+    .course_section .course .box .item .image .image_content .btn a:last-child{
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+
+    .coming_section .coming .box .title h2{
+        font-size: 28px;
+    }
+
+    footer .footer_box .box .item_group .item .links{
+        padding-left: 3rem;
+    }
+
+    footer .footer_box .box .item_group .item ul li a{
+        font-size: 16px;
+    }
+
+    .learn_section .learn .box .item .right_side .content .section .left .btn a{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .basketball_section .basketvall .box .item .right_side .content p{
+        margin: 0;
+    }
+
+    .workout_section .workout .top .right_side .content p{
+        font-size: 16px;
+    }
+    
+}

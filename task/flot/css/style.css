@@ -1,0 +1,1147 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=IBM+Plex+Sans:wght@100&family=Italianno&family=Nunito:wght@200&family=Plaster&family=Playfair+Display&family=Poppins:wght@100&family=Raleway:wght@100&family=Roboto:wght@100&family=Spirax&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+/* header start  */
+
+header{
+    background: #fff;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+header .logo{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+header nav{
+    float: left;
+    width: 60%;
+}
+
+header nav ul{
+    text-align: center;
+}
+header nav ul a{
+    margin: 0 3rem;
+    color: #777;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+header nav ul a:hover{
+    border-bottom: 1.5px solid red;
+    color: #000;
+}
+
+header nav ul a:focus{
+    color: #FFF;
+    background: #F15C45;
+    padding: 8px 18px;
+}
+
+header nav ul a.active{
+    color: #111;
+    border-bottom: 1.5px solid red;
+}
+
+header .header_btn{
+    width: 20%;
+    float: right;
+    text-align: center;
+}
+
+header .header_btn a{
+    color: blue;
+    border: 1.5px solid blue;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 1s ease-in-out;
+}
+
+header .header_btn a:hover{
+    background: blue;
+    color: #fff;
+}
+
+header .toggler_btn{
+    display: none;
+}
+
+/* header End  */
+
+/* hero section start  */
+
+
+.hero_section .hero .item{
+    padding: 0 6rem;
+}
+
+.hero_section .hero .item .left_side{
+    width: 50%;
+    float: left;
+    padding: 5rem 0;
+    position: relative;
+    clear: both;
+}
+
+.hero_section .hero .item .left_side .hero_title h1{
+    font-size: 50px;
+    width: 81%;
+    font-family: 'Poppins', sans-serif;
+    color: #393E45;
+    letter-spacing: 1px;
+}
+
+.hero_section .hero .item .left_side .hero_title h1 span{
+    border-bottom: 2px solid red;
+}
+
+.hero_section .hero .item .left_side p{
+    margin: 3rem 6rem 0 0 ;
+    color: #777;
+    font-size: 18px;
+    font-family: "Poppins" , sans-serif;
+}
+.hero_section .hero .item .left_side .emial_box{
+    width: 100%;
+    background: #fff;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 6rem;
+    position: absolute;
+    left: 8%;
+    z-index: 2;
+}
+
+.hero_section .hero .item .left_side .emial_box .icon{
+    width: 10%;
+    float: left;
+    color: #5244AB;
+}
+
+.hero_section .hero .item .left_side .emial_box .mail_add{
+    width: 60%;
+    float: left;
+}
+
+.hero_section .hero .item .left_side .emial_box .mail_btn{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.hero_section .hero .item .left_side .emial_box .mail_btn a{
+    color: #fff;
+    background: #5244AB;
+    padding: 10px 20px;
+}
+
+.hero_section .hero .item .right_side{
+    width: 50%;
+    float: right;
+}
+
+.hero_section .hero .item .right_side .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* hero section End  */
+
+/* workout section start  */
+
+.workout_section{
+    clear: both;
+}
+
+.workout_section .workout .top .left_side{
+    width: 50%;
+    float: left;
+}
+
+.workout_section .workout .top .left_side .title{
+    padding-left: 6rem;
+}
+
+.workout_section .workout .top .left_side .title h2{
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #74757E;
+    letter-spacing: 2px;
+}
+
+.workout_section .workout .top .right_side{
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+
+.workout_section .workout .top .right_side .content{
+    padding-left: 20rem;
+}
+
+.workout_section .workout .top .right_side .content p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #888;
+}
+
+.workout_section .workout .top .right_side .content .Expoler_btn{
+    margin-top: 1rem;
+}
+
+.workout_section .workout .top .right_side .content .Expoler_btn a{
+    color: #000;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid red;
+}
+
+.workout_section .workout .box{
+    padding: 10rem 5rem;
+}
+
+.workout_section .workout .box .image_group .item .img img{
+    width: 100%;
+}
+
+.workout_section .workout .box .image_group .item{
+    margin: auto;
+    width: 25%;   
+    float: left;
+    padding: 0 1rem;
+    /* transition: all 1s ease-in-out; */
+}
+
+.workout_section .workout .box .image_group .item:nth-child(2){
+    float: left;
+}
+
+.workout_section .workout .box .image_group .item:nth-child(3){
+    float: left;
+}
+
+.workout_section .workout .box .image_group .item:nth-child(4){
+    float: left;
+}
+
+.workout_section .workout .box .image_group .item .img{
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+.workout_section .workout .box .image_group .item .img:hover{
+    filter: drop-shadow( 1.5rem 2rem 10px #c3c3c3);
+    cursor: pointer;
+}
+
+.workout_section .workout .box .image_group .item .img .content{
+    position: absolute;
+    bottom: 9%;
+    text-align: center;
+    width: 100%;
+    background: rgba(134, 134, 134, 0.629);
+    backdrop-filter: blur(3px);
+}
+
+.workout_section .workout .box .image_group .item .img .content h3 , .workout_section .workout .box .image_group .item .img .content span{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .5px;
+}
+
+/* workout section End  */
+
+
+/* Basketball section start  */
+
+.basketball_section {
+    clear: both;
+}
+
+.basketball_section .basketvall .box{
+    width: 87%;
+    margin: auto;
+}
+
+.basketball_section .basketvall .box .item{
+    background: #273A69;
+    height: 20rem;
+}
+
+.basketball_section .basketvall .box .item .left_side{
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+
+.basketball_section .basketvall .box .item .left_side .image{
+    position: relative;
+}
+
+.basketball_section .basketvall .box .item .left_side .image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.basketball_section .basketvall .box .item .left_side .image .play_btn{
+    position: absolute;
+    top: 42%;
+    text-align: center;
+    width: 100%;
+}
+
+.basketball_section .basketvall .box .item .left_side .image .play_btn h2{
+    width: 66px;
+    height: 66px;
+    display: inline-block;
+    line-height: 62px;
+    color: #fff;
+    border: 4px double #fff;
+}
+
+.basketball_section .basketvall .box .item .left_side .image .play_btn h2 i{
+    font-size: 26px;
+}
+
+.basketball_section .basketvall .box .item .right_side{
+    width: 75%;
+    float: right;
+}
+
+.basketball_section .basketvall .box .item .right_side  .content{
+    margin: 5rem 0;
+    line-height: 2rem;
+}
+
+.basketball_section .basketvall .box .item .right_side  .content span{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff81;
+}
+
+.basketball_section .basketvall .box .item .right_side  .content h2{
+    font-size: 26px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.basketball_section .basketvall .box .item .right_side  .content p{
+    color: #ffffff81;
+    margin-right: 18rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.basketball_section .basketvall .box .item .right_side  .content p span{
+    color: red;
+}
+
+/* Basketball section End  */
+
+
+/* Learn section start */
+
+.learn_section .learn .box .item{
+    width: 87%;
+    margin: auto;
+}
+
+.learn_section .learn .box .item .left_side{
+    width: 50%;
+    float: left;
+}
+
+.learn_section .learn .box .item .left_side .image img{
+    width: 100%;
+}
+
+.learn_section .learn .box .item .left_side .image{
+    position: relative;
+}
+
+.learn_section .learn .box .item .left_side .image .play_btn{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.learn_section .learn .box .item .left_side .image .play_btn h2{
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    line-height: 70px;
+    color: #fff;
+    background: #888;
+    border: 4px double #fff; 
+}
+
+.learn_section .learn .box .item .left_side .image .play_btn h2 i{
+    font-size: 26px;
+}
+
+.learn_section .learn .box .item .right_side{
+    width: 50%;
+    float: right;
+}
+
+.learn_section .learn .box .item .right_side .content{
+    margin: 1rem 2rem 0 2rem;
+}
+
+.learn_section .learn .box .item .right_side .content .title{
+    padding: 0 0 2rem 0;
+}
+
+.learn_section .learn .box .item .right_side .content .title h2{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #666 ;
+}
+
+.learn_section .learn .box .item .right_side .content .sub_title{
+    padding: 2rem 0;
+}
+
+.learn_section .learn .box .item .right_side .content .sub_title h5{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.learn_section .learn .box .item .right_side .content .section .left{
+    width: 50%;
+    float: left;
+}
+
+.learn_section .learn .box .item .right_side .content .section .left h4 , .learn_section .learn .box .item .right_side .content .section .right h4{
+    margin: 1rem 0;
+}
+
+.learn_section .learn .box .item .right_side .content .section .left h4  span, .learn_section .learn .box .item .right_side .content .section .right h4 span{
+    margin: 0 1rem;
+}
+
+.learn_section .learn .box .item .right_side .content .section .left h4  span:nth-child(1) , .learn_section .learn .box .item .right_side .content .section .right h4  span:nth-child(1){
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: red;
+    background: #f15c4546;
+}
+
+.learn_section .learn .box .item .right_side .content .section .left .btn{
+    margin: 3rem 1rem;
+}
+
+.learn_section .learn .box .item .right_side .content .section .left .btn a{
+    background: #5244AB;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: .8px;
+    transition: all 1s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.learn_section .learn .box .item .right_side .content .section .left .btn a:hover{
+    color: #5244AB;
+    background: #fff;
+    border: 1.5px solid #5244AB;
+    box-shadow: 5px 5px #5244AB;
+}
+
+.learn_section .learn .box .item .right_side .content .section .right{
+    width: 50%;
+    float: right;
+}
+
+/* Learn section End */
+
+/* facility_section section start  */
+
+.facility_section{
+    clear: both;
+}
+
+.facility_section .facilitys{
+    padding: 20px 0;
+}
+
+.facility_section .facilitys .box .item{
+    width: 87%;
+    margin: auto;
+}
+
+.facility_section .facilitys .box .item .left_side{
+    width: 50%;
+    float: left;
+}
+
+.facility_section .facilitys .box .item .left_side .content .title h2{
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+.facility_section .facilitys .box .item .left_side .content .title{
+    padding-bottom: 2rem;
+    width: 80%;
+    border-bottom: 2px solid rgba(176, 172, 172, 0.495);
+}
+
+.facility_section .facilitys .box .item .left_side .content .facility{
+    padding: 2rem 0;
+}
+
+.facility_section .facilitys .box .item .left_side .content .facility h4{
+    margin: 2rem 0;
+}
+
+.facility_section .facilitys .box .item .left_side .content .facility h4 span{
+    padding: 0 1rem;
+}
+
+.facility_section .facilitys .box .item .left_side .content .facility h4 span:nth-child(1){
+    display: inline-block;
+    background: #82d79475;
+    color: #28D14D;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.facility_section .facilitys .box .item .left_side .content .facility h4 span:nth-child(2){
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.facility_section .facilitys .box .item .right_side{
+    width: 50%;
+    float: right;
+}
+
+.facility_section .facilitys .box .item .right_side .image{
+    position: relative;
+}
+
+.facility_section .facilitys .box .item .right_side .image .play_btn{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    cursor: pointer;
+}
+
+.facility_section .facilitys .box .item .right_side .image .play_btn span{
+    display: inline-block;
+    background: #fff;
+    color: red;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    border-radius: 14px;
+}
+
+.facility_section .facilitys .box .item .right_side .image .icon{
+    position: absolute;
+    top: 0;
+    right: -4%;
+}
+
+.facility_section .facilitys .box .item .right_side .image .icon span{
+    background: #fff;
+    color: #F15C45;
+    padding: 18px;
+    box-shadow:  9px 9px 15px #f3f3f3 inset;
+    font-size: 1.5rem;
+}
+
+.facility_section .facilitys .box .item .right_side .image img{
+    width: 100%;
+}
+
+.facility_section .facilitys .box .item .right_side .image .control{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background: #252836;
+    color: #fff;
+    padding: 1rem;
+}
+
+.facility_section .facilitys .box .item .right_side .image .control .left{
+    float: left;
+    width: 50%;
+}
+
+.facility_section .facilitys .box .item .right_side .image .control .left span{
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.facility_section .facilitys .box .item .right_side .image .control .right{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.facility_section .facilitys .box .item .right_side .image .control .right span{
+    padding: 0 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.facility_section .facilitys .box .item .right_side .image .download{
+    position: absolute;
+    bottom: -5%;
+    left: -10%;
+    border-top-right-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    background: #fff;
+    word-spacing: 1px;
+    padding: 0 10px;
+}
+
+.facility_section .facilitys .box .item .right_side .image .download h3 span:nth-child(1){
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 20px;
+    background: #F15C45;
+}
+
+/* facility_section section End  */
+
+
+/* Consultant section start */
+
+.consultant_section{
+    clear: both;
+}
+
+.consultant_section .consultant .box .item{
+    width: 87%;
+    padding: 4rem 0;
+    margin: auto;
+}
+
+.consultant_section .consultant .box .item .left_side{
+    width: 50%;
+    float: left;
+}
+
+.consultant_section .consultant .box .item .left_side .image img{
+    width: 100%;
+}
+
+.consultant_section .consultant .box .item .left_side .image{
+    position: relative;
+}
+
+.consultant_section .consultant .box .item .left_side .image .messenger{
+    position: absolute;
+    top: 7%;
+    left: -5%;
+}
+
+.consultant_section .consultant .box .item .left_side .image .image_card{
+    position: absolute;
+    bottom: -15%;
+    right: -5%;
+    padding: 2rem;
+    /* background: #fff; */
+    backdrop-filter: blur(3px);
+    /* box-shadow:  0 0  2rem #c6c6c6 inset; */
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.consultant_section .consultant .box .item .left_side .image .image_card .title{
+    padding: 1rem;
+}
+
+.consultant_section .consultant .box .item .left_side .image .image_card .title h4{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.consultant_section .consultant .box .item .left_side .image .image_card form .input_fild{
+    margin: 1rem 0;
+}
+
+.consultant_section .consultant .box .item .left_side .image .image_card form .input_fild input{
+    padding: 14px 25px;
+    border-radius: 10px;
+    border: 2px solid #f15c4590;
+}
+
+.consultant_section .consultant .box .item .left_side .image .image_card form .input_fild input[type=submit]{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #5244AB;
+    font-size: 20px;
+    padding: 14px 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 1s ease-in-out;
+}
+
+.consultant_section .consultant .box .item .left_side .image .image_card form .input_fild input[type=submit]:hover{
+    color: #5244AB;
+    background: #fff;
+    border: 1px solid #5244AB;
+}
+
+.consultant_section .consultant .box .item .left_side .image .messenger span{
+    color: #F15C45;
+    background: #fff;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(213, 213, 213, 0.715) inset;
+}
+
+.consultant_section .consultant .box .item .right_side{
+    width: 50%;
+    float: right;
+}
+
+.consultant_section .consultant .box .item .right_side .content{
+    padding: 8rem 4rem;
+}
+
+.consultant_section .consultant .box .item .right_side .content .title{
+    padding: 2rem 0;
+}
+
+.consultant_section .consultant .box .item .right_side .content .title h2{
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+.consultant_section .consultant .box .item .right_side .content .dec{
+    padding: 2rem 0;
+    line-height: 1.5rem;
+}
+
+.consultant_section .consultant .box .item .right_side .content .dec p{
+    font-size: 18px;
+    color: #888;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Consultant section End */
+
+
+/* Course section start  */
+
+.course_section{
+    clear: both;
+    padding: 8rem 0;
+}
+
+.course_section .course .box{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.course_section .course .box .title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.course_section .course .box .title h2{
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course_section .course .box .item{
+    padding: 0 1rem;
+    width: 25%;
+    float: left;
+}
+
+.course_section .course .box .item .image img{
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+
+.course_section .course .box .item .image img:hover{
+    transform: scale(1.5);
+}
+.course_section .course .box .item .image{
+    position: relative;
+    overflow: hidden;
+}
+
+.course_section .course .box .item .image .image_content{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.course_section .course .box .item .image .hover{
+    position: absolute;
+    bottom: -20%;
+    width: 100%;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.course_section .course .box .item:hover .image .hover{
+    bottom: 5%;
+}
+
+.course_section .course .box .item .image .image_content .plyer h3{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course_section .course .box .item .image .image_content .plyer span{
+    color: rgb(194, 194, 194);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course_section .course .box .item .image .image_content .btn a:nth-child(1){
+    background: #5244AB;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course_section .course .box .item .image .image_content .btn a:last-child{
+    backdrop-filter: blur(2px);
+    background: rgba(255, 255, 255, 0.291);
+    color: #fff;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Course section End  */
+
+/* Coming section start  */
+
+.coming_section{
+    clear: both;
+    margin-top: 8rem;
+}
+
+.coming_section .coming .box{
+    width: 87%;
+    margin: auto;
+}
+
+.coming_section .coming .box .title{
+    text-align: center;
+}
+
+.coming_section .coming .box .title h2{
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.coming_section .coming .box .item{
+    margin-top: 2rem;
+}
+
+.coming_section .coming .box .item .left_side{
+    width: 49%;
+    float: left;
+}
+
+.coming_section .coming .box .item .left_side .image img , .coming_section .coming .box .item .right_side .image img{
+    width: 100%;
+}
+
+.coming_section .coming .box .item .left_side .image{
+    position: relative;
+}
+
+.coming_section .coming .box .item .left_side .image .image_content{
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    text-align: center;
+}
+
+.coming_section .coming .box .item .left_side .image .image_content h2{
+    font-size: 22px;
+    color: #f3f3f3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.coming_section .coming .box .item .left_side .image .image_content span{
+    color: #c3c3c3;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.coming_section .coming .box .item .right_side .image{
+    position: relative;
+}
+
+.coming_section .coming .box .item .right_side .image .image_content{
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    text-align: center;
+}
+
+.coming_section .coming .box .item .right_side{
+    width: 49%;
+    float: right;
+}
+
+.coming_section .coming .box .item .right_side .image .image_content h2{
+    font-size: 22px;
+    color: #f3f3f3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.coming_section .coming .box .item .right_side .image .image_content span{
+    color: #c3c3c3;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+/* Coming section End  */
+
+
+/* Member section start  */
+
+.member_section{
+    clear: both;
+}
+
+.member_section .member .box{
+    width: 87%;
+    margin: auto;
+}
+
+.member_section .member .box .title{
+    text-align: center;
+}
+
+.member_section .member .box .title h2{
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+.member_section .member .box .item{
+    margin: 3rem 0;
+}
+
+.member_section .member .box .item .left_side{
+    width: 50%;
+    float: left;
+}
+
+.member_section .member .box .item .left_side .content{
+    padding: 3rem 0;
+}
+
+.member_section .member .box .item .left_side .content .quote h2{
+    font-size: 3rem;
+    color: #f15c4557;
+}
+
+.member_section .member .box .item .left_side .content .dec{
+    padding: 2rem 0;
+}
+
+.member_section .member .box .item .left_side .content .dec p{
+    font-size: 18px;
+    color: #74757E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.member_section .member .box .item .left_side .content .dec h3{
+    font-size: 20px;
+    color: #111;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.member_section .member .box .item .left_side .content .dec h3 span{
+    color: #74757E;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.member_section .member .box .item .right_side{
+    width: 50%;
+    float: right;
+}
+
+.member_section .member .box .item .right_side .image img{
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+}
+
+/* Member section End  */
+
+
+/* Subscribe section start  */
+
+.subscribe_section{
+    clear: both;
+}
+
+.subscribe_section .subscribe .box{
+    width: 87%;
+    margin: auto;
+    background: #332E4D;
+    text-align: center;
+}
+
+.subscribe_section .subscribe .box .item{
+    padding: 3rem 0;
+}
+
+.subscribe_section .subscribe .box .item .title{
+    padding: 1rem 0;
+}
+
+.subscribe_section .subscribe .box .item .title h2{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.subscribe_section .subscribe .box .item p{
+    font-family: 20px;
+    color: #777;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem 0;
+}
+
+.subscribe_section .subscribe .box .item .subscribe_btn{
+    padding: 1rem 0;
+}
+
+.subscribe_section .subscribe .box .item .subscribe_btn a{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    background: #F15C45;
+    padding: 10px 20px;
+}
+
+/* Subscribe section End  */
+
+
+/* footer area start  */
+
+footer{
+    border-top: 2px solid #999;
+    clear: both;
+}
+
+footer .footer_box .box{
+    width: 87%;
+    margin: auto;
+}
+
+footer .footer_box .box .item_group{
+    padding: 3rem 0;
+}
+
+footer .footer_box .box .item_group .item{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+footer .footer_box .box .item_group .item .image{
+    text-align: start;
+}
+
+footer .footer_box .box .item_group .item .image .content{
+    padding: 2rem 0;
+}
+
+footer .footer_box .box .item_group .item .image .content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #74757E;
+}
+
+footer .footer_box .box .item_group .item .title{
+    padding: 5px 0;
+    text-align: start;
+}
+
+footer .footer_box .box .item_group .item .title h4{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .footer_box .box .item_group .item .links{
+    padding-left: 5rem;
+}
+
+footer .footer_box .box .item_group .item ul{
+    text-align: start;
+    padding-top: 1rem;
+}
+
+footer .footer_box .box .item_group .item ul li{
+    padding: 9px 0;
+}
+
+footer .footer_box .box .item_group .item ul li a{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: #999;
+}
+
+/* footer area End  */
