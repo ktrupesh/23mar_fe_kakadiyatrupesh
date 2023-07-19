@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="">Enter Your Age :</label><br>
+    <input type="text" name="" id="inp" value="" ><br>
+    <script>
+
+        const inp = parseInt(document.getElementById("inp").value);
+        // console.log(inp);
+        document.write(inp);
+
+        const age = (inp >= 18) ? "Congratulation, you are eligible for vote." : "Sorry, you aren't eligible";
+        // console.log(age);
+        document.write("<br>");
+        document.write(age);
+    </script>
+</body>
+</html>
