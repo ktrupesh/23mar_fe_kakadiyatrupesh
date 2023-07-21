@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form .input_fild label{
+    display: block;
+}
+
+form .input_fild{
+    margin: 20px;
+}
+
+form .input_fild .input{
+    width: 30%;
+    height: 40px;
+}
+
+form .input_fild input{
+    outline: none;
+}
+
+form .input_fild textarea{
+    outline: none;
+}
+
+::placeholder{
+    padding: 20px;
+}
+
+form h2{
+    margin-left: 20px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+form h2::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    background: #111;
+    height: 4px;
+    transition: all 1s ease-in-out;
+    left: 0;
+    bottom: -10px;
+}
+
+form h2:hover::after{
+    width: 23%;
+}
+
+form{
+    padding: 20px;
+}
+
+input[type=submit]{
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    background: green;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+input[type=submit]:hover{
+    background: #fff;
+    border: 2px solid green;
+    color: green;
+    box-shadow: 4px 4px green;
+}
+
+
+/* page 2 start  */
+
+section{
+    background: rgb(234, 234, 234);
+}
+
+section .box .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0  1rem;
+    margin:  3rem 0;
+}
+
+section .box .item .left_side label{
+    display: block;
+    margin: 1rem 0;
+}
+
+section .box .item .left_side .city{
+    margin-top: 10rem;
+}
+
+section .box .item .left_side .pass{
+    margin-top: 8.7rem;
+}
+
+section .box .item .right_side input{
+    display: block;
+    margin: .8rem 0;
+}
+
+section .box .item .right_side input[type=checkbox]{
+    display: inline;
+}
+
+section .box .item .right_side input[type=radio]{
+    display: inline;
+}
+
+section .box .item .right_side select{
+    margin-top: 1rem;
+}
+
+/* page 2 End  */
