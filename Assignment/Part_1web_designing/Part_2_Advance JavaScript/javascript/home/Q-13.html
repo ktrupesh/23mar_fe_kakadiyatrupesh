@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="../home/css/style.css">
+    <title>Javascript</title>
+</head>
+<body>
+
+    <!-- header area start  -->
+
+    <header>
+        <div class="logo">
+            <img src="../home/image/javascript-logo.png" alt="">
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">Html</a></li>
+                <li><a href="#">css</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">jQurey</a></li>
+                <li><a href="#">Bootstrap</a></li>
+            </ul>
+        </nav>
+
+        <div class="header_btn">
+            <a href="#">Get started</a>
+        </div>
+
+        <div class="toggler_btn">
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- header area end  -->
+
+    <!-- Q-13 area start  -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <aside>
+                    <ul>
+                        <li><a href="../home/index.html">Q-1</a></li>
+                        <li><a href="../home/Q-2.html">Q-2</a></li>
+                        <li><a href="../home/Q-3.html">Q-3</a></li>
+                        <li><a href="../home/Q-4.html">Q-4</a></li>
+                        <li><a href="../home/Q-5.html">Q-5</a></li>
+                        <li><a href="../home/Q-6.html">Q-6</a></li>
+                        <li><a href="../home/Q-7.html">Q-7</a></li>
+                        <li><a href="../home/Q-8.html">Q-8</a></li>
+                        <li><a href="../home/Q-9.html">Q-9</a></li>
+                        <li><a href="../home/Q-10.html">Q-10</a></li>
+                        <li><a href="../home/Q-11.html">Q-11</a></li>
+                        <li><a href="../home/Q-12.html">Q-12</a></li>
+                        <li><a href="../home/Q-13.html">Q-13</a></li>
+                    </ul>
+                </aside>
+                <div class="q-1">
+                    <h1>What are the disadvantages of using innerHTML in JavaScript?</h1>
+                    <div class="ans">
+                        <p>It is very slow because as inner HTML already parses the content even we have to parse the content again so that's why it takes time. When we have used the event handlers then the event handlers are not automatically attached to the new elements created by innerHTML.</p>
+                    </div>
+                    <p id= 'demo'>Hello</p>
+                    <button onclick="Change()">Change</button>
+                    <div class="example">
+                        <div class="title">
+                            <h3>Example</h3>
+                        </div>
+                        <div class="content">
+                            &lt;script&gt;<br>
+                               function Change()<br>
+                               {<br>
+                                let p = document.getElementById('demo');<br>
+                                p.innerHTML = '&lt;span&gt;Hello World&lt;/span&gt;';<br>
+                               }<br>
+                            &lt;/script&gt;<br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Q-13 area end  -->
+
+
+    <script>
+        let p = document.getElementById("demo");
+
+        const button = document.querySelector("#change");
+        function Change(){
+            p.innerHTML = "Hello World";
+        } 
+    </script>
+</body>
+</html>

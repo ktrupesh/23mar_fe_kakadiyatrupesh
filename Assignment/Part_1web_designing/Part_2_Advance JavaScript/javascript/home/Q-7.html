@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="../home/css/style.css">
+    <title>Javascript</title>
+</head>
+<body>
+
+    <!-- header area start  -->
+
+    <header>
+        <div class="logo">
+            <img src="../home/image/javascript-logo.png" alt="">
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">Html</a></li>
+                <li><a href="#">css</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">jQurey</a></li>
+                <li><a href="#">Bootstrap</a></li>
+            </ul>
+        </nav>
+
+        <div class="header_btn">
+            <a href="#">Get started</a>
+        </div>
+
+        <div class="toggler_btn">
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- header area end  -->
+
+    <!-- Q-7 area start  -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <aside>
+                    <ul>
+                        <li><a href="../home/index.html">Q-1</a></li>
+                        <li><a href="../home/Q-2.html">Q-2</a></li>
+                        <li><a href="../home/Q-3.html">Q-3</a></li>
+                        <li><a href="../home/Q-4.html">Q-4</a></li>
+                        <li><a href="../home/Q-5.html">Q-5</a></li>
+                        <li><a href="../home/Q-6.html">Q-6</a></li>
+                        <li><a href="../home/Q-7.html">Q-7</a></li>
+                        <li><a href="../home/Q-8.html">Q-8</a></li>
+                        <li><a href="../home/Q-9.html">Q-9</a></li>
+                        <li><a href="../home/Q-10.html">Q-10</a></li>
+                        <li><a href="../home/Q-11.html">Q-11</a></li>
+                        <li><a href="../home/Q-12.html">Q-12</a></li>
+                        <li><a href="../home/Q-13.html">Q-13</a></li>
+                    </ul>
+                </aside>
+                <div class="q-1">
+                    <h1>How can the style/class of an element be changed?</h1>
+                    <div class="ans">
+                        <p> Using JavaScript, you can manipulate the DOM (Document Object Model) to change the style or class of an HTML element. It is possible to do this in a few different ways.</p>
+                         
+                        <h3 style="margin: 1rem 0;">Hide and Show the Para</h3>
+                         
+                        <p id="p">
+                            GeeksforGeeks is a computer science portal
+                            for geeks. This platform has been designed
+                            for every geek wishing to expand their
+                            knowledge, share their knowledge, and is
+                            ready to grab their dream job. GFG have
+                            millions of articles, live as well
+                            as online courses, thousands of tutorials
+                            and much more just for the geek inside you.
+                        </p>
+                        <button id="hide">Hide</button>
+                        <button id="show">Show</button>
+                        
+                    </div>
+
+                    <div class="example">
+                        <div class="title">
+                            <h3>Example</h3>
+                        </div>
+                        <div class="content">
+                            &lt;script&gt;<br>
+                                const btn_hide = document.querySelector("#hide");<br>
+                                const btn_show = document.querySelector("#show");<br>
+                                const btn_color = document.querySelector("#color");<br><br>
+                                
+                                const para = document.querySelector("#p");<br><br>
+                        
+                                btn_hide.addEventListener('click' ,  () =>  {<br>
+                                    para.classList.add("hide");<br>
+                                });<br><br>
+                        
+                                btn_show.addEventListener('click' ,  () =>  {<br>
+                                    para.classList.remove("hide");<br>
+                                });<br><br>
+                        
+                            &lt;/script&gt;<br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Q-7 area end  -->
+
+    <script>
+        const btn_hide = document.querySelector("#hide");
+        const btn_show = document.querySelector("#show");
+        
+        const para = document.querySelector("#p");
+
+        btn_hide.addEventListener('click' ,  () =>  {
+            para.classList.add("hide");
+        });
+
+        btn_show.addEventListener('click' ,  () =>  {
+            para.classList.remove("hide");
+            para.style.color = "#fff";
+            para.style.background = "green";
+            para.style.padding = "10px 20px"
+        });
+    </script>
+
+</body>
+</html>
