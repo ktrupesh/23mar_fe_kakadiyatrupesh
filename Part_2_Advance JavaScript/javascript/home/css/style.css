@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* header area start  */
+
+body{
+    scroll-behavior: smooth;
+}
+
+header{
+    background: #fff;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 1rem;
+}
+
+header .logo img{
+    width: 15%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+header nav ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+header .header_btn a{
+    padding: 10px 20px;
+    background: rgb(0, 128, 6);
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 10px;
+    transition: all .2s ease-in;
+}
+
+header .header_btn a:hover{
+    background: #fff;
+    color: rgb(0, 128, 6);
+    border: 2px solid rgb(0, 128, 6);
+}
+
+header .toggler_btn{
+    display: none;
+}
+
+/* header area end  */
+
+/* ==== Q-1 area start ==== */
+
+section .container .row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section .container .row aside{
+    width: 20%;
+}
+
+section .container .row aside ul li{ 
+    /* margin: 10px 1rem; */
+    text-align: start;
+    cursor: pointer;
+}
+
+section .container .row aside ul li a{
+    font-size: 20px;
+    color: #163D3C;
+    padding: 10px 6rem;
+}
+
+section .container .row aside ul li{
+    padding: 10px 20px;
+    background: rgba(239, 239, 239, 0.718);
+    transition: all .2s ease-in-out;
+}
+
+section .container .row aside ul li:nth-child(2n + 1){
+    background: rgb(209, 209, 209);
+}
+
+section .container .row aside ul li:nth-child(2n + 1):hover{
+    background: rgba(230, 230, 230, 0.749);
+}
+
+section .container .row aside ul li:hover{
+    background: rgba(209, 209, 209, 0.478);
+}
+
+section .container .row .q-1{
+    width: 80%;
+    padding: 0 1rem;
+}
+
+section .container .row .q-1 h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+section .container .row .q-1 .ans{
+    margin: 1rem 0;
+}
+
+section .container .row .q-1 .ans p{
+    font-size: 20px;
+    color: #999;
+}
+
+section .container .row .example{
+    background: #163D3C;
+    width: 50%;
+    margin: 3rem 0rem;
+    padding: 1.5rem;
+}
+
+section .container .row .example .title{
+    padding: 1rem 0;
+}
+
+section .container .row .example .title h3{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+section .container .row .example .content{
+    background: #fff;
+    padding: 2rem ;
+    border-left: 4px solid green;
+    margin-left: 1rem;
+    height: 227px;
+    overflow-y: auto;
+}
+
+section .container .row .example .content button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: #fff;
+}
+
+/* ==== Q-1 area End ==== */
+
+/* ==== Q-7 start ==== */
+
+.hide{
+    display: none;
+}
+
+/* ==== Q-7 end ==== */

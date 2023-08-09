@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="../home/css/style.css">
+    <title>Javascript</title>
+</head>
+<body>
+
+    <!-- header area start  -->
+
+    <header>
+        <div class="logo">
+            <img src="../home/image/javascript-logo.png" alt="">
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">Html</a></li>
+                <li><a href="#">css</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">jQurey</a></li>
+                <li><a href="#">Bootstrap</a></li>
+            </ul>
+        </nav>
+
+        <div class="header_btn">
+            <a href="#">Get started</a>
+        </div>
+
+        <div class="toggler_btn">
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- header area end  -->
+
+    <!-- Q-8 area start  -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <aside>
+                    <ul>
+                        <li><a href="../home/index.html">Q-1</a></li>
+                        <li><a href="../home/Q-2.html">Q-2</a></li>
+                        <li><a href="../home/Q-3.html">Q-3</a></li>
+                        <li><a href="../home/Q-4.html">Q-4</a></li>
+                        <li><a href="../home/Q-5.html">Q-5</a></li>
+                        <li><a href="../home/Q-6.html">Q-6</a></li>
+                        <li><a href="../home/Q-7.html">Q-7</a></li>
+                        <li><a href="../home/Q-8.html">Q-8</a></li>
+                        <li><a href="../home/Q-9.html">Q-9</a></li>
+                        <li><a href="../home/Q-10.html">Q-10</a></li>
+                        <li><a href="../home/Q-11.html">Q-11</a></li>
+                        <li><a href="../home/Q-12.html">Q-12</a></li>
+                        <li><a href="../home/Q-13.html">Q-13</a></li>
+                        <li><a href="../home/Q-14.html">Q-14</a></li>
+                    </ul>
+                </aside>
+                <div class="q-1">
+                    <h1>What are all the looping structures in JavaScript?</h1>
+                    <div class="ans">
+                        <p>Loop is use to execute the line of statement multiple time</p>
+                        <div class="entry_loop">
+                            <h2>1 : Entry Control Loop</h2>
+                            <p>while loop</p>
+                            <p>for loop</p>
+                            <p>for-in loop</p>
+                            <p>for-of loop</p>
+                            <p>for each loop</p>
+                        </div>
+
+                        <div class="exit_loop">
+                            <h2>2 : Exit Control Loop</h2>
+                            <p>Do while loop is exit control loop. Exit control loop by default execute one time.</p>
+                            <p>Do-while loop</p>
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="title">
+                            <h3>Example</h3>
+                        </div>
+                        <div class="content">
+                            <h3>Entry Control Loop</h3>
+                            <p style="background: green; color: #fff;">while loop</p><br>
+                            &lt;script&gt;<br>
+                            let i = 0;<br><br>
+
+                            while(i <= 10){<br>
+                                console.log(i);<br>
+                                i++;<br>
+                            }<br>
+                            (OUTPUT : 0,1,2,3,4,5,6,7,8,9,10)<br>
+                            
+                            <p style="background: green; color: #fff;">for loop</p><br>
+                            
+                            let count = 5;
+                            for(i = 1 , i <= 5 ; i++){<br>
+                                &nbsp;&nbsp;&nbsp;for(j = 1 , j <= i , j++){<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(count + " ");<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                            }<br>
+                            <p>
+                                (OUTPUT:)<br>
+                                1<br>
+                                2 3<br>
+                                4 5 6<br>
+                                7 8 9 10<br>
+                            </p>
+
+                            <p style="background: green; color: #fff;">for of loop</p>
+
+                            const x = [101, "html", "css"];<br>
+                            let count = 0;<br>
+                            for(let i of x) {<br>
+                                count++;<br>
+                            };<br>
+                            consol.log(count + "<br>");<br>
+
+                            (OUTPUT : 123)<br>
+
+                            <p style="background: green; color: #fff;">for in loop</p>
+
+                            var x = [101, "html", "css"];<br>
+                            for(let y of x) {<br>
+                                consol.log(y);<br>
+                            };<br>
+
+                            (OUTPUT : 101 , html , css)<br>
+
+                            <p style="background: green; color: #fff;">for each loop</p>
+
+                            const fruits = ['mango', 'papaya', 'pineapple', 'apple'];<br><br>
+
+                            fruits.forEach(function(fruit){<br>
+                                console.log('I want to eat a ' + fruit)<br>
+                            });<br>
+
+                            <p style="background: green; color: #fff;">do while loop</p>
+                            
+                            var i = 0;<br>
+                            do<br>
+                            {<br>
+                                console.log(i);<br>
+                                i++;<br>
+                            }while(i < 10);<br><br>
+
+                            &lt;/script&gt;
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Q-8 area end  -->
+
+
+    <script>
+        let i = 0;
+
+        while(i <= 10){
+            console.log(i);
+            i++;
+        }
+
+        var x = [101, "html", "css"];
+        let count = 0;
+            for(let y of x) {
+            count++;
+            console.log(count);
+        };
+
+        var x = [101, "html", "css"];
+            for(let y of x) {
+            console.log(y + "<br>");
+        };
+
+        const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+        fruits.forEach(function(fruit){
+            console.log('I want to eat a ' + fruits + "<br>");
+        });
+
+        var x = 0;
+        do
+        {
+            console.log(x);
+            x++;
+        }while(x < 10);
+    </script>
+</body>
+</html>
