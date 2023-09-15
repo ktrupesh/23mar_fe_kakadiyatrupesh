@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>JQUERY</title>
+</head>
+<body>
+
+    <!-- header area start  -->
+
+    <header>
+        <div class="logo">
+            <h1>J<span>QUERY</span></h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Assigment</a></li>
+                <li><a href="#">Assessment</a></li>
+                <li><a href="#">Project</a></li>
+            </ul>
+            <div class="toggler-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <div class="login-btn">
+            <button>Login</button>
+        </div>
+    </header>
+
+    <!-- header area end  -->
+
+    <!-- section area strt  -->
+
+    <section class="assgiment">
+        <div class="container">
+            <div class="row">
+                <div class="close-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="main-content">
+                    <aside>
+                        <ul>
+                            <li><a href="#">Jquery</a></li>
+                            <li><a href="#" id="class">Jquery css calss</a></li>
+                            <div class="drop-down">
+                                <li><a href="./jQuerycss.html">Add Class</a></li>
+                            </div>
+                            <li><a href="./animation.html">Animation</a></li>
+                            <li><a href="./slider.html">Slider</a></li>
+                            <li><a href="./tickling.html">tickling</a></li>
+                        </ul>
+                    </aside>
+
+                    <section class="content">
+                        <div class="row">
+                            <div class="Question">
+                                <h1>JQuery Animation ?</h1>
+                                <div class="Ans">
+                                    <p> Creating animations on web pages is simple and efficient with jQuery.</p>
+                                </div>
+                                <div class="animation"></div>
+                                <button id="btn1" class="btn"> click Now</button>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section area start  -->
+
+
+
+
+
+
+
+
+    <!-- JQUERY CDN  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- js file start  -->
+    <script src="./js/min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#class").click(function () {
+                $(".drop-down").toggleClass("menu");
+            })
+
+            $(".close-btn").click(function () {
+                $("aside").toggleClass("click");
+            })
+
+            $("#btn1").click(function () {
+                $(".animation").animate({
+                    left : "25%",
+                    height : "+=50",
+                    width : "+=50",
+                    top : "100%",
+                    opacity : "0.7",
+                });
+            })
+        })
+
+    </script>
+</body>
+</html>
