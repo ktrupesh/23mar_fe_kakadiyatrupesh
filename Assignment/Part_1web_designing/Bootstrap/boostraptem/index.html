@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- bootstrap script cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/view.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <!-- navbar ara start  -->
+
+    <nav class="navbar position-sticky top-0 navbar-expand-lg navbar-light bg-dark" style="z-index: 999;">
+        <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Carosel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled text-white-50" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <!-- navbar ara end  -->
+    
+    <!-- home area start  -->
+    
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp" class="img-fluid d-block" alt="First slide">
+                <div class="content text-end">
+                    <h3 class="text-white">One more for good measure.</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ducimus nesciunt sint quia mollitia, possimus corrupti pariatur. Deleniti, nulla itaque!</p>
+                    <div class="btn">
+                        <button type="button" class="btn btn-success text-white">Browse gallery</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp" class="img-fluid d-block" alt="Second slide">
+                <div class="content text-end">
+                    <h3 class="text-white">One more for good measure.</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ducimus nesciunt sint quia mollitia, possimus corrupti pariatur. Deleniti, nulla itaque!</p>
+                    <div class="btn">
+                        <button type="button" class="btn btn-success text-white">Browse gallery</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp" class="img-fluid d-block" alt="Third slide">
+                <div class="content text-end">
+                    <h3 class="text-white">One more for good measure.</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ducimus nesciunt sint quia mollitia, possimus corrupti pariatur. Deleniti, nulla itaque!</p>
+                    <div class="btn">
+                        <button type="button" class="btn btn-success text-white">Browse gallery</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+
+    <!-- home area end  -->
+
+    <!-- back to top buuton start  -->
+
+    <div class="b-to-t">
+        <p class="fs-4 mb-0">Back To Top</p>
+    </div>
+    
+    <!-- back to top buuton end  -->
+
+    <!-- card area start  -->
+
+    <section class="card-area pt-5 p-5 bg-light">
+        <div class="container pt-5">
+            <div class="row justify-content-center align-items-center g-2 pt-5">
+
+                <div class="col-md-4 c-a">
+                    <div class="card border border-1 bg-white">
+                        <img class="card-img-top rounded shadow" src="./image/prosen1.jpeg" alt="Title">
+                        <div class="card-body pt-5 mt-5">
+                            <h4 class="card-title">Partick Wood</h4>
+                            <span>Ceo/Co-Founder</span>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid illo eveniet iure odio tempora ipsum tenetur illum. Consequatur facilis libero laudantium delectus, asperiores voluptate porro.</p>
+                            <button type="button" class="btn btn-success text-white">View details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 c-a">
+                    <div class="card border border-1 bg-white">
+                        <img class="card-img-top shadow" src="./image/prosen1.jpeg" alt="Title">
+                        <div class="card-body pt-5 mt-5">
+                            <h4 class="card-title">Partick Wood</h4>
+                            <span>Ceo/Co-Founder</span>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid illo eveniet iure odio tempora ipsum tenetur illum. Consequatur facilis libero laudantium delectus, asperiores voluptate porro.</p>
+                            <button type="button" class="btn btn-success text-white">View details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 c-a">
+                    <div class="card border border-1 bg-white">
+                        <img class="card-img-top img-fluid" src="./image/prosen1.jpeg" alt="Title">
+                        <div class="card-body mt-5 pt-5">
+                            <h4 class="card-title">Partick Wood</h4>
+                            <span>Ceo/Co-Founder</span>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid illo eveniet iure odio tempora ipsum tenetur illum. Consequatur facilis libero laudantium delectus, asperiores voluptate porro.</p>
+                            <button type="button" class="btn btn-success text-white">View details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- card area end  -->
+
+    <!-- category area start  -->
+
+    <section class="category-area mt-5" id="category">
+        <div class="container pt-5">
+            <div class="row justify-content-center align-items-center g-2">
+                
+                <div class="col-md-7">
+                    <div class="content">
+                        <h2 class="pe-5">First featurette heading. it'll blow Your mind.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tempore nulla maiores error aliquam ipsam explicabo nam impedit iure quisquam nihil nostrum tempora illo, veritatis dignissimos, sit placeat expedita iste?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <img src="./image/strawberry.webp" alt="" class="img-fluid">
+                </div>
+                
+                <div class="col-md-5 border border-top">
+                    <img src="./image/Pineapples.jpeg" alt="" class="img-fluid">
+                </div>
+                
+                <div class="col-md-7">
+                    <div class="content">
+                        <h2 class="pe-5">Oh yeah, it's that good. See for yourself.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tempore nulla maiores error aliquam ipsam explicabo nam impedit iure quisquam nihil nostrum tempora illo, veritatis dignissimos, sit placeat expedita iste?</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-7">
+                    <div class="content">
+                        <h2 class="pe-5">And lastly, this one. Checkmate.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tempore nulla maiores error aliquam ipsam explicabo nam impedit iure quisquam nihil nostrum tempora illo, veritatis dignissimos, sit placeat expedita iste?</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-5">
+                    <img src="./image/download.jpeg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- category area end  -->
+
+    <!-- footer area start  -->
+
+    <footer class="mt-4">
+        <div class="container text-center">
+            <p>&copy; 2017-2018 Company, inc, - <a href="#" class="text-primary text-decoration-none">Privacy  & terms</a></p>
+        </div>
+    </footer>
+
+    <!-- footer area end  -->
+
+    <script>
+
+        const scrollBtn = document.querySelector(".b-to-t");
+
+        window.addEventListener('scroll' , () => {
+            if(window.scrollY > 300){
+                scrollBtn.style.display = "block";
+            }
+            else{
+            scrollBtn.style.display = "none";
+            }
+        });
+
+        scrollBtn.addEventListener('click' , () => {
+            window,scrollTo({
+                top : 0,
+                behavior : "smooth"
+            });
+        });
+    </script>
+</body>
+</html>

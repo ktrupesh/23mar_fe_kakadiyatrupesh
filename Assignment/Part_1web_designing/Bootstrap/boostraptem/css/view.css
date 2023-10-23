@@ -1,0 +1,74 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    /* home area start  */
+
+    #carouselId .carousel-inner .carousel-item .content{
+        top: 37%;
+    }
+
+    #carouselId .carousel-inner .carousel-item .content h3{ 
+        font-size: 18px;
+    }
+
+    #carouselId .carousel-inner .carousel-item .content p{
+        font-size: 16px;
+        margin-bottom: 0 !important;
+    }
+
+    /* home area end  */
+
+    /* card area start  */
+
+    .card-area{
+        padding: 1rem !important;
+    }
+
+    .card-area .container .row .c-a .card img{
+        top: 2%;
+    }
+
+    /* card area end  */
+
+    /* footer area start  */
+
+    footer .container p{
+        font-size: 18px;
+    }
+
+    /* footer area end  */
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    
+    /* card area start  */
+
+    .card-area{
+        padding: 1rem !important;
+    }
+
+    .card-area .container .row .c-a .card img{
+        top: 2%;
+    }
+
+    .card-area .container{
+        padding: 0 !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px) {
+    
+    /* card area start  */
+
+    .card-area{
+        padding: 1rem !important;
+    }
+
+    .card-area .container .row .c-a .card img{
+        top: -10%;
+    }
+
+    .card-area .container{
+        padding: 0 !important;
+    }
+}
