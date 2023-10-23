@@ -1,0 +1,56 @@
+*{
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box !important;
+}
+
+/* form area start  */
+
+.logo{
+    background: rgb(245, 245, 245);
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    line-height: 98px;
+    margin: auto;
+    padding: 0.8rem !important;
+    border: 2px solid #cec9c9b2;
+}
+
+.logo span{
+    background: rgb(36, 191, 226);
+    display: block;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    margin: auto;
+}
+
+.input-group{
+    position: relative;
+    margin: 2rem 0 !important;
+}
+
+.input-group span{
+    position: absolute;
+    z-index: 2 !important;
+    left: 3%;
+}
+
+.input-group input[type=text], .input-group input[type=password]{
+    outline: none !important;
+    border-radius: 24px;
+    border-top-left-radius: 24px !important;
+    border-bottom-left-radius: 24px !important;
+    background: #fff;
+    height: 3rem;
+    box-shadow: -8px -8px 10px rgb(230, 230, 230) inset;
+}
+
+.input-group input[type=submit]{
+    background: rgb(36, 191, 226);
+    border: none;
+    outline: none;
+}
+
+/* form area end  */
