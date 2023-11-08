@@ -1,0 +1,334 @@
+*{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.fs-7{
+    font-size: 8px !important;
+}
+
+
+/* preloder  */
+
+.preloder{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    background: #fff;
+    z-index: 999;
+    padding: 4rem 0;
+}
+
+.preloder .loder{
+    width: 250px;
+    height: 250px;
+    border-top: 4px solid #FEB918;
+    margin: 200px auto;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: loder 1s linear infinite ;
+}
+
+@keyframes loder {
+    0%{
+        top: 0%;
+    }
+
+    10%{
+        transform: rotate(20deg);
+    }
+
+    20%{
+        transform: rotate(40deg);
+    }
+
+    30%{
+        transform: rotate(60deg);
+    }
+
+    40%{
+        transform: rotate(80deg);
+    }
+
+    50%{
+        transform: rotate(100deg);
+    }
+
+    60%{
+        transform: rotate(120deg);
+    }
+
+    70%{
+        transform: rotate(180deg);
+    }
+
+    80%{
+        transform: rotate(220deg);
+    }
+
+    90%{
+        transform: rotate(280deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* header area end  */
+
+header{
+    max-width: 1176px;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.navbar{
+    padding: 0 2rem !important;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    right: 0;
+    max-width: none !important;
+    z-index: 999;
+}
+
+header .nav ul{
+    gap: 40px;
+}
+
+header .nav ul li a{
+    position: relative;
+    transition: all 1s ease-in;
+}
+
+header .nav ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    transition: all 1s ease-in-out;
+    background: #FCC647;
+    bottom: -8px;
+    left: 0;
+}
+
+header .nav ul li a:hover::after{
+    width: 100%;
+}
+
+/* hambugger-menu start  */
+
+.hambugger-menu{
+    display: none;
+}
+
+.hambugger-menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: #000;
+    margin: 5px;
+}
+
+/* hambugger-menu end  */
+
+
+/* header area end  */
+
+section{
+    max-width: 1176px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* works area start */
+
+.title p{
+    max-width: 505px;
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+}
+
+#arrowup{
+    left: 55%;
+    width: 24%;
+    top: 90px;
+    z-index: 2;
+}
+
+#arrowdown{
+    left: 22%;
+    width: 24%;
+    top: 90px;
+    z-index: 2;
+}
+
+/* works area end */
+
+
+/* delicious-dish area start  */
+
+.delicious-dish .container .row .card{
+    border-radius: 10.81px;
+    transition: all .2s ease-in;
+}
+
+.delicious-dish .container .row .card:hover{
+    border: 2px solid #FCC647 !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.delicious-dish .container .row .card img{
+    max-width: 147.48px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.delicious-dish .container .row .card:hover img{
+    transform: rotate(90deg);
+}
+
+.delicious-dish .container .row .card .card-body .card-title{
+    font-size: 18px;
+}
+
+.delicious-dish .container .row .card .card-body .card-text{
+    font-size: 12px;
+}
+
+/* delicious-dish area end  */
+
+/* dilivery area start */
+
+.delivery-area{
+    background: #FFFBF3;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.delivery-area .container .row img{
+    max-width: 449.69px;
+    width: 100%;
+}
+
+.delivery-area .container .row .content p{
+    max-width: 537px;
+    width: 100%;
+    font-size: 16px;
+    color: #667085;
+}
+
+/* dilivery area end */
+
+
+/* download area start  */
+
+/* download android-btn start  */
+
+.download-btn{
+    gap: 18px;
+    overflow: hidden;
+}
+
+.android-btn{
+    position: relative;
+    z-index: 3;
+}
+
+.android-btn:hover{
+    transition: all .4s ease-in-out;
+    color: #fff !important;
+}
+
+.android-btn::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3.3rem;
+    left: -100%;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    background: #FEB918;
+    z-index: -20;
+}
+
+.android-btn:hover::after{
+    width: 100%;
+    left: 0%;
+}
+
+/* download android-btn end  */
+
+/* download apple-btn start  */
+
+.apple-btn{
+    position: relative;
+    z-index: 3;
+}
+
+.apple-btn:hover{
+    transition: all .4s ease-in-out;
+    color: #fff !important;
+}
+
+.apple-btn::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3.3rem;
+    left: 0%;
+    bottom: 100%;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    background: #FEB918;
+    z-index: -20;
+}
+
+.apple-btn:hover::after{
+    width: 100%;
+    bottom: 10%;
+}
+
+/* download apple-btn end  */
+
+/* download area end  */
+
+/* footer area start  */
+
+.footer-top{
+    max-width: 1170px;
+    width: 100%;
+    z-index: 3;
+    border-radius: 30px;
+    left: 10%;
+    top: -30%;
+}
+
+.footer-mid{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background: #232233;
+}
+
+.footer-mid .container{
+    max-width: 1170px;
+    width: 100%;    
+}
+
+.input-group input:focus{
+    outline:  none !important;
+    box-shadow: none !important;
+}
